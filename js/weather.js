@@ -1,6 +1,7 @@
 function weather(api_key){
 	//initialize
 this.api_key = api_key;
+this.i = "";
 	weather.prototype.get_current = function get_current(){
 		$.ajax({
 			url : "http://api.wunderground.com/api/"+this.api_key+"/geolookup/conditions/q/zmw:00000.1.71623.json",
@@ -19,7 +20,7 @@ this.api_key = api_key;
 				current_weather.updated = parsed_json.current_observation.observation_time;
 
 				console.log(current_weather);
-
+this.i = current_weather;
 			}
 		});
 	}
