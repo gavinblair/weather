@@ -18,7 +18,7 @@ function weather(api_key){
 				current_weather.wind = parsed_json.current_observation.wind_string;
 				current_weather.updated = parsed_json.current_observation.observation_time;
 
-				console.log(current_weather);
+				return current_weather;
 
 			}
 		});
