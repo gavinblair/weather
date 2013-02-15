@@ -1,6 +1,6 @@
 function weather(api_key){
 	//initialize
-this.api_key = "160caaa27c885952";
+this.api_key = api_key;
 	weather.prototype.get_current = function get_current(){
 		$.ajax({
 			url : "http://api.wunderground.com/api/"+this.api_key+"/geolookup/conditions/q/zmw:00000.1.71623.json",
