@@ -1,13 +1,19 @@
+var weather;
 $(document).ready(function($) {
 
-	var w = new weather('160caaa27c885952');
+	weather = new wunderground('160caaa27c885952', 'metric');
 
-	w.get_current(function(data){
+	weather.update_current(function(current){
+
 		var weather_template = ich.weather({
-			"feelslike": data.celcius.feelslike,
-			"weather": data.weather
+			"feelslike": current.feelslike,
+			"english": current.english,
+			"unit": weather.unit.code.toUpperCase()
 		});
 		$("#container").html(weather_template);
+
+
+		
 	});
 
 });

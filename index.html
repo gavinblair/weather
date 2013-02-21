@@ -33,13 +33,14 @@
         <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
         -->
 
+        <link rel="stylesheet" href="http://code.jquery.com/qunit/qunit-1.11.0.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <script id="weather" type="text/html">
             <div>
-                Feels like {{feelslike}}&deg;C<br />
-                {{weather}}
+                Feels like {{feelslike}}&deg;{{unit}}<br />
+                {{english}}
             </div>
         </script>
     </head>
@@ -52,6 +53,68 @@
         <script src="js/icanhaz.js"></script>
         <script src="js/weather.js"></script>
         <script src="js/main.js"></script>
+
+        <div id="qunit"></div>
+        <div id="qunit-fixture"></div>
+        <script src="http://code.jquery.com/qunit/qunit-1.11.0.js"></script>
+        <script>
+            //Testing
+            var apikey = '160caaa27c885952';
+            asyncTest("Current Weather, imperial", 3, function(){
+                var weather = new wunderground(apikey, 'imperial');
+
+                weather.update_current().done(function(data){
+                    ok(weather.current.english, "English is set");
+                    ok(weather.current.feelslike, "Feelslike is set");
+                    equal("f", weather.unit.code, "imperial means unit is F");
+                    start();
+                });
+            });
+            asyncTest("Current Weather, metric", 3, function(){
+                var weather = new wunderground(apikey, 'metric');
+
+                weather.update_current().done(function(data){
+                    ok(weather.current.english, "English is set");
+                    ok(weather.current.feelslike, "Feelslike is set");
+                    equal("c", weather.unit.code, "metric means unit is C");
+                    start();
+                });
+            });
+            asyncTest("Current Weather, default system", 3, function(){
+                var weather = new wunderground(apikey);
+
+                weather.update_current().done(function(data){
+                    ok(weather.current.english, "English is set");
+                    ok(weather.current.feelslike, "Feelslike is set");
+                    equal("c", weather.unit.code, "default unit is C");
+                    start();
+                });
+            });
+
+            asyncTest("Short Term Forecase", 5, function(){
+                var weather = new wunderground(apikey);
+
+                weather.update_shortterm().done(function(data){
+                    equal(weather.shortterm.length, 4, "4 Periods");
+                    ok(weather.shortterm[0].english, "English is set");
+                    ok(weather.shortterm[0].low, "Low is set");
+                    ok(weather.shortterm[0].high, "High is set");
+                    ok(weather.shortterm[weather.shortterm.length-1].title, "Title is set");
+                    start();
+                });
+            });
+
+            asyncTest("Long Term Forecase", 0, function(){
+                var weather = new wunderground(apikey);
+
+                weather.update_longterm().done(function(data){
+                    console.log(data);
+                    
+                    start();
+                });
+            });
+
+        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <!-- script>
