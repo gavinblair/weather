@@ -3,7 +3,7 @@ $(document).ready(function($) {
 
 	weather = new wunderground('160caaa27c885952', 'metric');
 
-	weather.update_current(function(current){
+	weather.updateCurrent(function(current){
 
 		var weather_template = ich.weather({
 			"feelslike": current.feelslike,
