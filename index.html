@@ -39,32 +39,23 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="http://code.jquery.com/qunit/qunit-1.11.0.css?v=1">
         <script id="weather" type="text/html">
-            <div>{{icon}}</div>
-            <div>{{feelslike}}</div>
-            <div>{{english}}</div>
-            <ul>
-                {{#forecast}}
-                    <li></li>
-                {{/forecast}}
-            </ul>
+            <article>
+                <h1 id='temp'>0</h1>
+                <p>{{english}}</p>
+            </article>
+            <nav>
+                <ul>
+                    {{#forecast}}
+                        <li><a href="#day{{index}}"><strong>{{high}}</strong><span>{{letter}}</span></a></li>
+                    {{/forecast}}
+                </ul>
+            </nav>
         </script>
         
     </head>
     <body>
         <div id="container">
-        		<article>
-        			<h1 id='temp'>0</h1>
-        			<p>High of 34&deg;C, clear with little to no wind.</p>
-        		</article>
-        		<nav>
-        			<ul>
-        				<li><a href="#day1"><strong>30</strong><span>M</span></a></li>
-        				<li><a href="#day2"><strong>28</strong>T</a></li>
-        				<li><a href="#day3"><strong>28</strong>W</a></li>
-        				<li><a href="#day4"><strong>34</strong>R</a></li>
-        				<li><a href="#day5"><strong>32</strong>F</a></li>
-        			</ul>
-        		</nav>
+        		
 
         </div>
         <!-- Add your site or application content here -->
