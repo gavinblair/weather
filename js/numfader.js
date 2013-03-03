@@ -25,6 +25,7 @@ var numfader = function(el){
 			el.innerHTML = i;
 			if(i === to) {
 				clearInterval(timer);
+				
 			}
 		}, interval);
 	};
