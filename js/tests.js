@@ -34,24 +34,13 @@ $(document).ready(function($) {
         });
     });*/
 
-    /*asyncTest("Short Term Forecast", 5, function(){
+    /*asyncTest("Forecast", 4, function(){
 
-        weather.updateShortTerm().done(function(data){
-            equal(weather.shortterm.length, 4, "4 Periods");
-            ok(weather.shortterm[0].english, "English is set");
-            ok(weather.shortterm[0].low, "Low is set");
-            ok(weather.shortterm[0].high, "High is set");
-            ok(weather.shortterm[weather.shortterm.length-1].title, "Title is set");
-            start();
-        });
-    });*/
-
-    /*asyncTest("Long Term Forecast", 0, function(){
-        var weather = new wunderground(apikey);
-
-        weather.update_longterm().done(function(data){
-            console.log(data);
-            
+        weather.updateForecast().done(function(data){
+            ok(weather.forecast[0].english, "English is set");
+            ok(weather.forecast[0].low, "Low is set");
+            ok(weather.forecast[0].high, "High is set");
+            ok(weather.forecast[weather.forecast.length-1].title, "Title is set");
             start();
         });
     });*/

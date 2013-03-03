@@ -10,10 +10,22 @@ $(document).ready(function($) {
 			"english": current.english,
 			"unit": weather.unit.code.toUpperCase()
 		});
-		$("#container").html(weather_template);
+		$("#current").html(weather_template);
 
 
 		
 	});
+
+	weather.updateForecast(function(forecast){
+
+		var weather_template = ich.weather({
+			
+		});
+
+		$("#forecast").html(weather_template);
+		
+	});
+
+	
 
 });

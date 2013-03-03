@@ -33,50 +33,26 @@ var wunderground = function(apiKey, system) {
 		});
 	};
 
-	wunderground.prototype.updateShortTerm = function(callback){
-		return $.ajax({
-			url : 'http://api.wunderground.com/api/'+apiKey+'/forecast/q/zmw:00000.1.71623.json',
-
-			dataType : 'jsonp',
-			success : function(data) { console.log(data);
-				var i, numDays = data.forecast.simpleforecast.forecastday.length;
-				wunderground.prototype.shortterm = [];
-				for(i = 0; i<numDays; i+=1){
-					wunderground.prototype.shortterm.push({
-						title: data.forecast.txt_forecast.forecastday[i].title,
-						english: data.forecast.simpleforecast.forecastday[i].conditions,
-						low: data.forecast.simpleforecast.forecastday[i].low[wunderground.prototype.unit.name],
-						high: data.forecast.simpleforecast.forecastday[i].high[wunderground.prototype.unit.name]
-						//verbose: data.forecast.txt_forecast.forecastday[i].
-					});
-				}
-
-				if(callback){
-					callback(wunderground.prototype.shortterm);
-				}
-			}
-		});
-	};
-
-	wunderground.prototype.updateLongterm = function(callback){
+	wunderground.prototype.updateForecast = function(callback){
 		return $.ajax({
 			url : 'http://api.wunderground.com/api/'+apiKey+'/forecast10day/q/zmw:00000.1.71623.json',
 			dataType : 'jsonp',
 			success : function(data) {
 
-			/*				var num_days = data.forecast.simpleforecast.forecastday.length;
-				wunderground.prototype.shortterm = [];
+				var num_days = data.forecast.simpleforecast.forecastday.length;
+				wunderground.prototype.forecast = [];
+				 console.log(data);/**/
 				for(var i = 0; i<num_days; i++){
-					wunderground.prototype.shortterm.push({
+					wunderground.prototype.forecast.push({
 						title: data.forecast.txt_forecast.forecastday[i].title,
 						english: data.forecast.simpleforecast.forecastday[i].conditions,
 						low: data.forecast.simpleforecast.forecastday[i].low[wunderground.prototype.unit.name],
 						high: data.forecast.simpleforecast.forecastday[i].high[wunderground.prototype.unit.name]
 					});
-				}*/
+				}
 
 				if(callback){
-					callback(wunderground.prototype.shortterm);
+					callback(wunderground.prototype.forecast);
 				}
 			}
 		});

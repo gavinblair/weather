@@ -38,11 +38,16 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <script id="weather" type="text/html">
-            <div>
-                Feels like {{feelslike}}&deg;{{unit}}<br />
-                {{english}}
-            </div>
+            <div>{{icon}}</div>
+            <div>{{feelslike}}</div>
+            <div>{{english}}</div>
+            <ul>
+                {{#forecast}}
+                    <li></li>
+                {{/forecast}}
+            </ul>
         </script>
+        
     </head>
     <body>
         <div id="container">Get Ready For Weather</div>
