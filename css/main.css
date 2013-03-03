@@ -79,13 +79,17 @@ body {
 h1{
 	font-size: 173.395px;
 	font-weight: normal;
-	margin:50px 0 0;
+	margin:85px 0 42px;
+	line-height: 1;
+}
+#bigIcon{
+	margin:39px 0 0;
 }
 /* prevent "0" being on the screen while we wait for a new value */
 #temp { visibility: hidden; }
 
 article p{	
-	opacity: 0.45;
+	opacity: 0.5;
 	color:#800000;
 	font-size:15px;
 	margin: 8px auto;
@@ -134,7 +138,11 @@ strong{
 	display:block;
 }
 
-
+p a, p a:hover, p a:active, p a:focus, p a:visited{
+	opacity: 0.5;
+	text-decoration: none;
+	border-bottom: 1px solid #000;
+}
 
 
 
@@ -148,7 +156,8 @@ strong{
 /** COLOUR YOUR WORLD **/
 body, nav a, nav a:visited, nav a:hover, nav a:focus, nav a:active{ color:#fff; }
 nav a:hover, nav a:focus, nav a:active{ background:#b00000; }
-article p{ color: #000; }
+p, p a, p a:hover, p a:active, p a:focus, p a:visited{ color: #000; }
+svg{ width:225px; fill:#fff;}
 
 body { background: #93d07f; }
 
