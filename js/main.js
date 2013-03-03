@@ -35,7 +35,7 @@ var weatherbacon = function(){
 
 			var tempEffect = new numfader(document.getElementById("temp"));
 			var interval = 10;
-			/**/current.feelslike = 45;
+			/**///current.feelslike = 45;
 			if(Math.abs(parseInt(current.feelslike,10)) < 10) {
 				interval = 100;
 			}
