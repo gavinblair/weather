@@ -41,7 +41,7 @@ var wunderground = function(apiKey, system) {
 
 				var num_days = data.forecast.simpleforecast.forecastday.length;
 				wunderground.prototype.forecast = [];
-				 console.log(data);/**/
+				 
 				for(var i = 0; i<num_days; i++){
 					wunderground.prototype.forecast.push({
 						title: data.forecast.txt_forecast.forecastday[i].title,
