@@ -65,12 +65,59 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body { 
+	background:#cf0000;
+	color:#fff;
+	text-align: center;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
 
+h1{
+	font-size: 173.395px;
+	font-weight: normal;
+}
 
+article p{
+	color:#800000;
+	font-size:15px;
+}
 
+nav ul{
+	padding:0;
+}
+nav li{
+	list-style: none;
+	display:inline;
+	font-weight: bold;
+	font-size:16px;
+}
+strong{ 
+	font-weight: normal;
+	font-size: 30px;
+}
+span{
+	text-decoration: underline;
+}
 
+nav a{
+	color:#fff;
+	text-decoration: none;
+	display:block;
+	float:left;
+	text-align: center;
+	width:20%;
+}
 
+nav a:hover,
+nav a:focus,
+nav a:active{
+	background:#b00000;
+	color:#fff;
+}
 
+strong{
+	display:block;
+}
 
 
 
