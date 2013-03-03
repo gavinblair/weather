@@ -1,6 +1,10 @@
 var weather;
 $(document).ready(function($) {
 
+	
+
+	/*
+	
 	weather = new wunderground('160caaa27c885952', 'metric');
 
 	weather.updateCurrent(function(current){
@@ -25,7 +29,7 @@ $(document).ready(function($) {
 		$("#forecast").html(weather_template);
 		
 	});
-
+	*/
 	
 
 });
