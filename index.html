@@ -31,10 +31,9 @@
         <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
         -->
 
-        <link rel="stylesheet" href="http://code.jquery.com/qunit/qunit-1.11.0.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <link rel="stylesheet" href="http://code.jquery.com/qunit/qunit-1.11.0.css?v=1">
         <script id="weather" type="text/html">
             <div>{{icon}}</div>
             <div>{{feelslike}}</div>
@@ -49,9 +48,8 @@
     </head>
     <body>
         <div id="container">
-
         		<article>
-        			<h1>34</h1>
+        			<h1 id='temp'>0</h1>
         			<p>High of 34&deg;C, clear with little to no wind.</p>
         		</article>
         		<nav>
@@ -73,6 +71,16 @@
         <script src="js/weather.js"></script>
         <script src="js/numfader.js"></script>
         <script src="js/main.js"></script>
+
+        <!------------------- DELETE ME -------------------------------->
+            <!--
+            <br class='clear' />
+            <div id="qunit"></div>
+            <div id="qunit-fixture"></div>
+            <script src="http://code.jquery.com/qunit/qunit-1.11.0.js"></script>
+            <script src='js/tests.js'></script>
+            -->
+        <!------------------- /DELETE ME -------------------------------->
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <!-- script>

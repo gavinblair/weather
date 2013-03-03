@@ -44,4 +44,26 @@ $(document).ready(function($) {
             start();
         });
     });*/
+    
+    /*asyncTest("numfader animateText", 1, function(){
+        var el = document.createElement("el");
+        var textfade = new numfader(el);
+        var from=1, to=10, interval=100;
+        textfade.animateText(from,to,interval);
+        setTimeout(function(){
+            ok(el.innerHTML == to, "animateText works");
+            start();
+        }, ((to-from)*interval)+interval);
+    });*/
+
+    /*asyncTest("numfader animateBackgroundColour", 1, function(){
+        var el = document.createElement("el");
+        var colfade = new numfader(el);
+        var from={r: 255, g: 0, b: 0}, to={r: 0, g: 255, b: 0}, interval=10;
+        colfade.animateBackgroundColour(from,to,interval);
+        setTimeout(function(){ console.log(el.style.backgroundColor);
+            ok(el.style.backgroundColor == 'rgb('+to.r+', '+to.g+', '+to.b+')', "animateBackgroundColour works");
+            start();
+        }, (280*interval)+interval);
+    });*/
 });

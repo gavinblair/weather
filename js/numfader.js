@@ -14,7 +14,7 @@
 var numfader = function(el){
 
 	//initialize
-
+	
 	numfader.prototype.animateText = function(from,to,interval) {
 		if(interval === undefined) {
 			interval = 100;
@@ -25,7 +25,6 @@ var numfader = function(el){
 			el.innerHTML = i;
 			if(i === to) {
 				clearInterval(timer);
-				
 			}
 		}, interval);
 	};

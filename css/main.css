@@ -60,22 +60,31 @@ fieldset {
 textarea {
     resize: vertical;
 }
+#qunit { margin-top: 5em; margin-bottom: 5em; } 
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+* {
+   -webkit-user-select: none;  /* prevent copy paste for all elements */
+} 
+.clear { clear: both; }
 body { 
 	background:#cf0000;
 	color:#fff;
-	text-align: center;
+	
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+#container {
+    text-align: center;
 }
 
 h1{
 	font-size: 173.395px;
 	font-weight: normal;
 }
+/* prevent "0" being on the screen while we wait for a new value */
+#temp { visibility: hidden; }
 
 article p{
 	color:#800000;
@@ -91,7 +100,7 @@ nav li{
 	font-weight: bold;
 	font-size:16px;
 }
-strong{ 
+#container strong{ 
 	font-weight: normal;
 	font-size: 30px;
 }
