@@ -14,8 +14,9 @@
 var numfader = function(el){
 
 	//initialize
+	numfader.prototype.el = el;
 	
-	numfader.prototype.animateText = function(from,to,interval) {
+	numfader.prototype.animateText = function(from,to,interval,callback) {
 		if(interval === undefined) {
 			interval = 100;
 		}
@@ -25,11 +26,14 @@ var numfader = function(el){
 			el.innerHTML = i;
 			if(i === to) {
 				clearInterval(timer);
+				if(callback){
+					callback();
+				}
 			}
 		}, interval);
 	};
 
-	numfader.prototype.animateBackgroundColour = function(fromRGB,toRGB,interval){
+	numfader.prototype.animateBackgroundColour = function(fromRGB,toRGB,interval,callback){
 		if(interval === undefined) {
 			interval = 10;
 		}
@@ -43,6 +47,9 @@ var numfader = function(el){
 			el.style.backgroundColor = 'rgb('+r+','+g+','+b+')';
 			if(r === toRGB.r && g === toRGB.g && b === toRGB.b) {
 				clearInterval(timer);
+				if(callback){
+					callback();
+				}
 			}
 		}, interval);
 	};

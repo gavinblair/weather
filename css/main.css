@@ -69,11 +69,8 @@ textarea {
    -webkit-user-select: none;  /* prevent copy paste for all elements */
 } 
 .clear { clear: both; }
-body { 
-	background:#cf0000;
-	color:#fff;
-	
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 #container {
     text-align: center;
@@ -82,13 +79,28 @@ body {
 h1{
 	font-size: 173.395px;
 	font-weight: normal;
+	margin:50px 0 0;
 }
 /* prevent "0" being on the screen while we wait for a new value */
 #temp { visibility: hidden; }
 
-article p{
+article p{	
+	opacity: 0.45;
 	color:#800000;
 	font-size:15px;
+	margin: 8px auto;
+	width:50%;
+	line-height: 1.3;
+}
+
+.opac{
+	color:#000;
+}
+
+nav{
+	position: absolute; 
+	width: 100%;
+	bottom:0px;
 }
 
 nav ul{
@@ -105,23 +117,17 @@ nav li{
 	font-size: 30px;
 }
 span{
-	text-decoration: underline;
+	border-bottom: 1px solid #fff;
 }
 
-nav a{
-	color:#fff;
+nav a,
+nav a:visited{
 	text-decoration: none;
 	display:block;
 	float:left;
 	text-align: center;
 	width:20%;
-}
-
-nav a:hover,
-nav a:focus,
-nav a:active{
-	background:#b00000;
-	color:#fff;
+	padding-bottom: 11px;
 }
 
 strong{
@@ -136,6 +142,15 @@ strong{
 
 
 
+
+
+
+/** COLOUR YOUR WORLD **/
+body, nav a, nav a:visited, nav a:hover, nav a:focus, nav a:active{ color:#fff; }
+nav a:hover, nav a:focus, nav a:active{ background:#b00000; }
+article p{ color: #000; }
+
+body { background:#cf0000; }
 
 
 /* ==========================================================================

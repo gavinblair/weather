@@ -1,11 +1,13 @@
 var weather;
 $(document).ready(function($) {
 
-	//prevent "0" being on the screen while we wait for a new value
+	/* prevent "0" being on the screen while we wait for a new value */
 	document.getElementById("temp").style.visibility = 'visible';
 	
 	var temp = new numfader(document.getElementById("temp"));
-	temp.animateText(0, 34, 10);
+	temp.animateText(0, 34, 10, function(){
+		$(temp.el).addClass('animated bounceIn');
+	});
 
 	/*
 	
