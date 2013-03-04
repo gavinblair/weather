@@ -43,6 +43,7 @@ var weatherbacon = function(){
 
 			var tempEffect = new numfader(document.getElementById("temp"));
 			var interval = 10;
+			/**///current.feelslike = 45;
 			if(Math.abs(parseInt(current.feelslike,10)) < 10) {
 				interval = 100;
 			}
@@ -73,6 +74,8 @@ var weatherbacon = function(){
 
 	function temp2RGB(temp){
 		var hex;
+		if(temp > 30) { temp = 30; }
+		if(temp < -20) { temp = -20; }
 		switch(temp){
 			case 30:
 				hex = '#ab0000';
@@ -228,11 +231,7 @@ var weatherbacon = function(){
 				hex =	'#ffffff';
 				break;
 		}
-		// Expand shorthand form (e.g. "03F") to full form (e.g. "0033FF")
-		var shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
-		hex = hex.replace(shorthandRegex, function(m, r, g, b) {
-			return r + r + g + g + b + b;
-		});
+
 
 		var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
 		return result ? {
