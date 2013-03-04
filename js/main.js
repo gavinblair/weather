@@ -4,7 +4,15 @@ var weatherbacon = function(){
 
 		$('#bigIcon').load('img/eggs.svg', function(){
 			$('h1').toggle();
+			$('p').toggle();
 		});
+
+		$('.icon').load('img/eggs.svg', function(){
+			$('strong').toggle();
+		});
+
+
+			$('strong').toggle();
 
 		weather = new wunderground('160caaa27c885952', 'metric');
 

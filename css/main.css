@@ -144,7 +144,8 @@ p a, p a:hover, p a:active, p a:focus, p a:visited{
 	border-bottom: 1px solid #000;
 }
 
-
+svg{ width:225px; height:225px; }
+.icon svg{ width:50px; height:50px; }
 
 
 
@@ -157,7 +158,7 @@ p a, p a:hover, p a:active, p a:focus, p a:visited{
 body, nav a, nav a:visited, nav a:hover, nav a:focus, nav a:active{ color:#fff; }
 nav a:hover, nav a:focus, nav a:active{ background:#b00000; }
 p, p a, p a:hover, p a:active, p a:focus, p a:visited{ color: #000; }
-svg{ width:225px; fill:#fff;}
+svg{ fill:#fff;}
 
 body { background: #93d07f; }
 

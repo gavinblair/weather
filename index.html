@@ -48,7 +48,13 @@
             <nav>
                 <ul>
                     {{#forecast}}
-                        <li><a href="#day{{index}}"><strong>{{high}}</strong><span>{{letter}}</span></a></li>
+                        <li>
+                        	<a href="#day{{index}}">
+                        		<strong class="animated bounceIn">{{high}}</strong>
+                        		<strong style="display:none" class="icon animated bounceIn">{{high}}</strong>
+                        		<span>{{letter}}</span>
+                        	</a>
+                        </li>
                     {{/forecast}}
                 </ul>
             </nav>
