@@ -6,69 +6,78 @@ var weatherbacon = function(){
 
 		weather.updateCurrent(function(current){
 
-			var weather_template = ich.weather({
-				"feelslike": current.feelslike,
-				"english": current.english,
-				"forecast": [
-					{
-						index: 1,
-						letter: 'M',
-						high: '36'
-					},
-					{
-						index: 1,
-						letter: 'M',
-						high: '36'
-					}
-				],
-				"unit": weather.unit.code.toUpperCase()
-			});
-
-			$("#container").html(weather_template);
-
-			$('#bigIcon').load('img/eggs.svg', function(){
-				$('h1').toggle();
-				$('p').toggle();
-			});
-
-			$('.icon').load('img/eggs.svg', function(){
-				$('strong').toggle();
-			});
-
-			/* prevent "0" being on the screen while we wait for a new value */
-			document.getElementById("temp").style.visibility='visible';
-
-			var tempEffect = new numfader(document.getElementById("temp"));
-			var interval = 10;
-			/**///current.feelslike = 45;
-			if(Math.abs(parseInt(current.feelslike,10)) < 10) {
-				interval = 100;
-			}
-			tempEffect.animateText(0, parseInt(current.feelslike,10), interval, function(el){
-				console.log(el);
-				$(el).addClass('animated bounceIn');
-			});
-
-			var bgEffect = new numfader($('body')[0]);
-			var to = temp2RGB(parseInt(current.feelslike));
-			var from = temp2RGB(0);
-
-			bgEffect.animateBackgroundColour(from, to);
-
-		});
-
-		/*weather.updateForecast(function(forecast){
-
-			var weather_template = ich.weather({
-
-			});
-
-			$("#forecast").html(weather_template);
+			weather.updateForecast(function(forecast){
+				var weather_template = ich.weather({ });
+				$("#forecast").html(weather_template);				
 			
-		});*/
+
+				var weather_template = ich.weather({
+					"feelslike": current.feelslike,
+					"english": current.english,
+					"forecast": [
+						{
+							index: 1,
+							letter: 'M',
+							high: '36'
+						},
+						{
+							index: 1,
+							letter: 'M',
+							high: '36'
+						}
+					],
+					"unit": weather.unit.code.toUpperCase()
+				});
+
+				$("#container").html(weather_template);
+
+				var icon = getIcon();
+				$('#bigIcon').load(icon.url, function(){
+					$('h1').toggle();
+					$('p:hidden').html(icon.credit);
+					$('p').toggle();
+				});
+
+				//console.log(weather.current);
+
+				weather.current.feelslike;
+
+
+				$('.icon').load('img/eggs.svg', function(){
+					$('strong').toggle();
+				});
+
+				/* prevent "0" being on the screen while we wait for a new value */
+				document.getElementById("temp").style.visibility='visible';
+
+				var tempEffect = new numfader(document.getElementById("temp"));
+				var interval = 10;
+				/**///current.feelslike = 45;
+				if(Math.abs(parseInt(current.feelslike,10)) < 10) {
+					interval = 100;
+				}
+				tempEffect.animateText(0, parseInt(current.feelslike,10), interval, function(el){
+					//console.log(el);
+					$(el).addClass('animated bounceIn');
+				});
+
+				var bgEffect = new numfader($('body')[0]);
+				var to = temp2RGB(parseInt(current.feelslike));
+				var from = temp2RGB(0);
+
+				bgEffect.animateBackgroundColour(from, to);
+			}); //forecast callback
+		}); //weather callback
 
 	});
 
+	function getIcon(temperature, precipitation) {
+		var icon = {
+			credit: '<a href="http://thenounproject.com/noun/egg/#icon-No4122" target="_blank">Egg</a> designed by <a href="http://thenounproject.com/jacob" target="_blank">Jacob Halton</a> from The Noun Project',
+			url: 'img/eggs.svg'
+		};
+		return icon;
+	}
 
 	function temp2RGB(temp){
 		var hex;

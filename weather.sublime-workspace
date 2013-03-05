@@ -3,24 +3,487 @@
 	{
 		"selected_items":
 		[
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"ul",
+				"u  (element)"
+			],
+			[
+				"Custom",
+				"CustomerContact"
+			],
+			[
+				"VOD",
+				"emit_vod_main_error "
+			],
+			[
+				"search",
+				"search-help"
+			],
+			[
+				"html",
+				"html_entity_decode"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"dis",
+				"displayName"
+			],
+			[
+				"profile_",
+				"profile_id_2"
+			],
+			[
+				"position",
+				"positionClass"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"bran",
+				"BrantJobsService"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"getJ",
+				"getJobsUtility"
+			],
+			[
+				"id",
+				"idOnly"
+			],
+			[
+				"GROUP",
+				"GROUP_CONCAT"
+			],
+			[
+				"count",
+				"countOnly"
+			],
+			[
+				"coun",
+				"countOnly"
+			],
+			[
+				"strrep",
+				"str_replace"
+			],
+			[
+				"order",
+				"orderDirection"
+			],
+			[
+				"on",
+				"onBusRoute"
+			],
+			[
+				"job",
+				"jobTitle"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"jobCat",
+				"jobCategory"
+			],
+			[
+				"pos",
+				"positionClasses"
+			],
+			[
+				"array_c",
+				"array_combine"
+			],
+			[
+				"end",
+				"endforeach"
+			],
+			[
+				"param",
+				"params"
+			],
+			[
+				"ne",
+				"new_listings"
+			],
+			[
+				"jobC",
+				"jobCategory"
+			],
+			[
+				"array_p",
+				"array_pop"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"key",
+				"keywords"
+			],
+			[
+				"or",
+				"orderBy"
+			],
+			[
+				"add",
+				"addslashes"
+			],
+			[
+				"ke",
+				"keywords"
+			],
+			[
+				"mysql_fetch_",
+				"mysql_fetch_object"
+			],
+			[
+				"lis",
+				"listing_template"
+			],
+			[
+				"load",
+				"loadmore"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"proce",
+				"processing_codes"
+			],
+			[
+				"proc",
+				"processing_codes"
+			],
+			[
+				"zoe_",
+				"zoe_swap_quicklinks"
+			],
+			[
+				"root",
+				"rootstock_selecting"
+			],
+			[
+				"week",
+				"weekly"
+			],
+			[
+				"ItemD",
+				"ItemDetail"
+			],
+			[
+				"out",
+				"output_file"
+			],
+			[
+				"conver",
+				"convert_url"
+			],
+			[
+				"convert",
+				"convert_files"
+			],
+			[
+				"con",
+				"convert_files"
+			],
+			[
+				"requ",
+				"require_once"
+			],
+			[
+				"U",
+				"UPLOAD_TEMP_URL"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"asset",
+				"asset_clearance"
+			],
+			[
+				"GPC",
+				"get_parent_class"
+			],
+			[
+				"total",
+				"total_items"
+			],
+			[
+				"plant",
+				"plant_rate"
+			],
+			[
+				"Primar",
+				"PrimaryContact"
+			],
+			[
+				"pin",
+				"pinched"
+			],
+			[
+				"pro",
+				"processing"
+			],
+			[
+				"uc",
+				"ucwords"
+			],
+			[
+				"order_sta",
+				"order_stakes_per_plant"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"Prima",
+				"PrimaryContact"
+			],
+			[
+				"Prim",
+				"PrimaryContact"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"wor",
+				"work_order"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"se",
+				"sans-serif  (value)"
+			],
+			[
+				"question",
+				"question13f"
+			],
+			[
+				"curr",
+				"curr_question"
+			],
+			[
+				"next",
+				"next_loaded"
+			],
+			[
+				"next_",
+				"next_loaded"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"prev",
+				"previous-question"
+			],
+			[
+				"nex",
+				"next_question"
+			],
+			[
+				"validate",
+				"validate_position"
+			],
+			[
+				"vali",
+				"validate_race"
+			],
+			[
+				"valida",
+				"validate_school"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"block",
+				"block"
+			],
+			[
+				"func",
+				"function_exists"
+			],
+			[
+				"user",
+				"userTotal"
+			],
+			[
+				"fun",
+				"function_exists"
+			],
+			[
+				"promi",
+				"promise-leaderboard"
+			],
+			[
+				"Order",
+				"OrderItem"
+			],
+			[
+				"twitt",
+				"twitter_post_types"
+			],
+			[
+				"tw",
+				"twitter_post"
+			],
+			[
+				"twi",
+				"twitter_signin"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"i",
+				"italic  (value)"
+			],
+			[
+				"query",
+				"query_result"
+			],
+			[
+				"vote",
+				"voteArray"
+			],
+			[
+				"fec",
+				"fetchAssoc  (function)"
+			],
+			[
+				"artic",
+				"article_query  (variable)"
+			],
+			[
+				"votes",
+				"votes_fields_query"
+			],
+			[
+				"art",
+				"article_date"
+			],
+			[
+				"field_",
+				"field_source_value"
+			],
+			[
+				"field_link",
+				"field_link_url"
+			],
+			[
+				"councillo",
+				"councillor-activity"
+			],
+			[
+				"news_",
+				"news_items_nids"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": "<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js\"></script>\n<script>\njQuery(document).ready(function($) {\n  $.ajax({\n  url : \"http://api.wunderground.com/api/Your_Key/geolookup/conditions/q/IA/Cedar_Rapids.json\",\n  dataType : \"jsonp\",\n  success : function(parsed_json) {\n  var location = parsed_json['location']['city'];\n  var temp_f = parsed_json['current_observation']['temp_f'];\n  alert(\"Current temperature in \" + location + \" is: \" + temp_f);\n  }\n  });\n});\n</script>",
+			"file": "css/main.css",
 			"settings":
 			{
-				"buffer_size": 499,
-				"line_ending": "Windows",
-				"name": "<script src=\"http://ajax.googleapis.com/ajax/libs/"
+				"buffer_size": 5320,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2903,
+				"buffer_size": 4712,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 4678,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/nouns.js",
+			"settings":
+			{
+				"buffer_size": 116,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/weather.js",
+			"settings":
+			{
+				"buffer_size": 2090,
 				"line_ending": "Unix"
 			}
 		}
@@ -28,15 +491,47 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"intall ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"tidy",
+				"Tidy PHP"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 0.0
+		"width": 536.0
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 125.0
 	},
 	"distraction_free":
 	{
@@ -49,16 +544,192 @@
 	},
 	"file_history":
 	[
+		"/C/websites/weather/img/eggs.svg",
+		"/C/websites/weather/index.xhtml",
+		"/C/websites/weather/index.html",
+		"/C/websites/weather/index.php",
+		"/C/websites/disney2/weshListing.php",
+		"/C/websites/disney2/head.php",
+		"/C/websites/disney2/js/chosen.jquery.min.js",
+		"/C/websites/disney2/nav.php",
+		"/C/websites/disney2/add-asset.php",
+		"/C/websites/disney2/changedMyMind/lob-vod.php",
+		"/C/websites/disney2/changedMyMind/lob-moviesyndication.php",
+		"/C/websites/disney2/changedMyMind/listing-movies.php",
+		"/C/websites/disney2/css/style.css",
+		"/C/websites/disney2/modals.php",
+		"/C/websites/disney2/js/script.js",
+		"/C/websites/disney2/changed-my-mind/lob-tvsyndication.php",
+		"/C/websites/disney2/episode.php",
+		"/C/websites/disney2/listing.php",
+		"/C/websites/disney2/title.php",
+		"/C/websites/disney2/doa.php",
+		"/C/websites/disney2/version.php",
+		"/C/websites/disney2/foot.php",
+		"/C/websites/disney2/uploader.php",
+		"/C/websites/disney2/season.php",
+		"/C/websites/disney2/lob-tvsyndication.php",
+		"/C/websites/disney2/listing-movies.php",
+		"/C/websites/disney2/jQuery-File-Upload-master/index1.html",
+		"/C/websites/disney2/jQuery-File-Upload-master/index.html",
+		"/C/websites/disney2/lob-moviesyndication.php",
+		"/C/websites/disney2/uploader-templates.php",
+		"/C/websites/disney2/listing2.php",
+		"/C/websites/disney2/lob-vod.php",
+		"/C/websites/disney2/jQuery-File-Upload-master/server/php/files/3692_10151308779090590_2049957592_n.jpg",
+		"/C/websites/disney2/jQuery-File-Upload-master/server/php/files/2147_10151200153451912_1104970412_n.jpg",
+		"/C/Users/User/Desktop/temp.html",
+		"/C/websites/ontplants/app/controllers/operations_controller.php",
+		"/C/Users/User/Desktop/temp.csv",
+		"/C/websites/rtraction/cwcw.php",
+		"/C/websites/disney2/css/bootstrap.css",
+		"/C/websites/disney2/jQuery-File-Upload-master/js/main.js",
+		"/C/websites/disney2/css/iconize.css",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/js/content_management.js",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/application/models/model_asset.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/application/controllers/content_management.php",
+		"/C/websites/disney2/listing-vod.php",
+		"/C/websites/disney2/vod.php",
+		"/Z/disneyabc/staging/2013.02.07.zb.001/sql_changes.sql",
+		"/C/websites/brantjobsmobile/application/controllers/job.php",
+		"/C/websites/brantjobsmobile/application/config/config.php",
+		"/Z/disneyabc/staging/2013.02.07.zb.001/2013.01.23.zb.proviewimport.sql",
+		"/C/Users/User/Desktop/liveProspectTitles.sql",
+		"/C/websites/disney2/js/DataTables.js",
+		"/C/websites/disney2/js/jquery.dataTables.bootstrapPaging.min.js",
+		"/C/Users/User/Desktop/example.jquery.html",
+		"/C/Users/User/AppData/Local/Temp/7zEC4E6.tmp/example.jquery.html",
+		"/C/websites/disney2/css/bootstrap-chosen.less",
+		"/C/websites/disney2/js/bootstrap.js",
+		"/C/websites/disney2/syndication/listing.html",
+		"/C/websites/ontplants/phase4OOS.sql",
+		"/C/websites/ontplants/phase4OOSfeedback.sql",
+		"/C/websites/ontplants/app/config/bootstrap.php",
+		"/C/websites/ontplants/app/config/core.php",
+		"/C/websites/ontplants/app/controllers/shipments_controller.php",
+		"/C/websites/ontplants/app/views/shipments/shipping_report.ctp",
+		"/C/websites/ontplants/app/controllers/orders_controller.php",
+		"/C/websites/ontplants/app/controllers/order_items_controller.php",
+		"/C/websites/ontplants/app/views/elements/work_order.ctp",
+		"/C/websites/ontplants/app/views/orders/confirmation.ctp",
+		"/C/websites/ontplants/app/models/order_item.php",
+		"/C/websites/ontplants/app/models/customer.php",
+		"/C/websites/ontplants/app/controllers/customers_controller.php",
+		"/C/websites/ontplants/app/models/behaviors/soft_deletable.php",
+		"/C/websites/ontplants/app/controllers/customer_contacts_controller.php",
+		"/C/websites/ontplants/app/views/customer_contacts/index.ctp",
+		"/C/websites/ontplants/app/views/customers/edit.ctp",
+		"/C/websites/ontplants/app/views/orders/edit.ctp",
+		"/C/websites/ontplants/app/views/orders/index.ctp",
+		"/C/websites/ontplants/app/webroot/js/ontplants.js",
+		"/C/websites/ontplants/app/views/elements/infoform.ctp",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/application/helpers/array_to_xml_helper.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/application/controllers/utility.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/application/helpers/olddisney_helper.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/application/controllers/assets.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/application/controllers/candist.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/2013.01.23.zb.proviewimport.sql",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/application/views/user/edit.php",
+		"/Z/disneyabc/tst/2013.01.23.zb.003 - hide import script/v3test/application/controllers/assets.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/static/login.php",
+		"/Z/disneyabc/tst/2013.01.23.zb.002/v3test/application/controllers/assets.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/application/views/main_template.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/uploads/proview_customer_list.csv",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/application/helpers/MY_form_helper.php",
+		"/C/Program Files (x86)/Git/share/git-core/templates/hooks/pre-commit",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/.git/hooks/pre-commit",
+		"/C/Program Files (x86)/Git/share/git-core/templates/hooks/prepare-commit-msg.sample",
+		"/C/websites/test2/test.txt",
+		"/C/Program Files (x86)/Git/share/git-core/templates/hooks/post-commit",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/includes/init.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/.gitignore",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/application/views/footer.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/application/config/constants.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/sql changes.sql",
+		"/C/websites/test_updates/cat",
+		"/C/websites/sites-dev.rtraction.com/disney/disneyabc.sublime-project",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/application/core/MY_Controller.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/syndication/program_synopsis.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/syndication/program_schedule.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/syndication/movie_title_list.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/syndication/movie_synopsis.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/application/errors/error_404.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/application/libraries/Usermanager.php",
+		"/C/websites/rtraction/index.php",
+		"/C/websites/test/.git/hooks/post-commit",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/application/controllers/synd.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/application/views/welcome_message.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/content_management/programs_syn_admin.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/static/clearance.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/static/fileupload.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/static/tapecharge.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/static/upgrade.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/includes/bvtv.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/static/logout.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/logs/site_error.log",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/syndication/movies.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/content_management/doc_type_admin.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/application/models/model_candist_airdate_document.php",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/static/LOG_FILE",
+		"/C/websites/sites-dev.rtraction.com/disneyabctv/tv/v3/static/links.php"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
+			"C:\\websites\\disney2",
+			"C:\\websites\\sites-dev.rtraction.com\\disneyabctv\\tv\\v3",
+			"C:\\websites\\ontplants\\app",
+			"C:\\websites\\sites-dev.rtraction.com\\disneyabctv\\tv\\v3",
+			"C:\\websites\\sites-dev.rtraction.com\\disneyabctv\\tv\\uploads",
+			"C:\\websites\\sites-dev.rtraction.com\\disneyabctv\\tv\\v3\\",
+			"C:\\websites\\sites-dev.rtraction.com\\disney\\tv\\v3\\",
+			"C:\\websites\\sites-dev.rtraction.com\\disney\\tv\\v3\\application",
+			"",
+			"C:\\websites\\ncbbwebservice",
+			"C:\\websites\\brantjobsmobile",
+			"C:\\websites\\ontplants\\app",
+			"C:\\websites\\sites-dev.rtraction.com\\disney\\tv\\",
+			"C:\\websites\\sites-dev.rtraction.com\\disney\\tv\\v3\\application",
+			"C:\\websites\\sites-dev.rtraction.com\\disney\\",
+			"C:\\websites\\sites-dev.rtraction.com\\disney\\tv\\",
+			"C:\\websites\\sites-dev.rtraction.com\\disney\\tv\\js",
+			"C:\\websites\\sites-dev.rtraction.com\\disney",
+			"C:\\Users\\User\\Desktop\\v3",
+			"C:\\websites\\sites-dev.rtraction.com\\disney\\tv\\v3",
+			"C:\\websites\\sites-dev.rtraction.com\\disney\\tv\\v3,C:\\websites\\sites-dev.rtraction.com\\disney\\tv\\v3\\js",
+			"C:\\websites\\sites-dev.rtraction.com\\disney\\tv\\v3",
+			"C:\\websites\\sites-dev.rtraction.com\\disney\\tv\\v3\\application\\views",
+			"C:\\websites\\sites-dev.rtraction.com\\disney\\tv\\v3",
+			"C:\\websites\\sites-dev.rtraction.com\\disney\\tv\\v3\\js",
+			"C:\\websites\\sites-dev.rtraction.com\\disney\\tv\\v3",
+			"C:\\Users\\User\\Desktop\\v3\\application",
+			"C:\\Users\\User\\Desktop\\v3\\",
+			"C:\\Users\\User\\Desktop\\v3\\application",
+			"C:\\Users\\User\\Desktop\\v3",
+			"C:\\Users\\User\\Desktop\\application",
+			"C:\\websites\\sites-dev.rtraction.com\\disney",
+			"C:\\websites\\ontplants\\app\\",
+			"C:\\websites\\ontplants\\app\\views",
+			"C:\\websites\\ontplants\\app",
+			"C:\\websites\\ontplants",
+			"C:\\websites\\sites-dev.rtraction.com\\hp",
+			"C:\\websites\\ontplants\\app\\",
+			"C:\\websites\\ontplants\\app\\views",
+			"C:\\websites\\ontplants\\app\\",
+			"C:\\websites\\ontplants\\app\\views\\elements",
+			"C:\\websites\\ontplants\\app",
+			"C:\\websites\\sites.dev\\crevawc\\sites\\all\\themes\\crevawc",
+			"C:\\websites\\thex\\sites\\all\\",
+			"C:\\websites\\sites.dev\\kgrand\\sites\\all\\themes\\grand",
+			"C:\\websites\\ontplants\\app",
+			"C:\\websites\\sites-dev.rtraction.com\\mydfree",
+			""
 		]
 	},
 	"find_state":
@@ -66,13 +737,232 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"updateForecast",
+			"temp2RGB",
+			"numf",
+			".js",
+			"bigicon",
+			"svg",
+			">\n",
+			"author",
+			"<td><a href=\"version.php\">",
+			"<td></td>",
+			"<td>2",
+			"<td>1",
+			">1",
+			"2010",
+			"2011",
+			"2008",
+			"2009",
+			"2012",
+			"2017",
+			"2016",
+			"2015",
+			"/2014",
+			"/0",
+			"<td>0",
+			"<tr>",
+			"04/30/2013",
+			"<td>2012-2013</td>",
+			"/2013",
+			"<tr>\n	<td>",
+			"/2013",
+			"2013	Double Strip</td>",
+			"2013	Double Weekend",
+			"2013	Double Weekend with Repeat",
+			"2013	Strip",
+			"2013	Weekend",
+			"Weekend",
+			"Timing",
+			"Timing Sheet",
+			"Timing",
+			"mat\n Actual For",
+			"Timing",
+			"mat\n Actual Form",
+			"Timing",
+			"\n	 Timing Sheet",
+			"<td>09",
+			"<td>08",
+			"<td>07",
+			"<td>06",
+			"<td>05",
+			"<td>04",
+			"07/2013",
+			"/06/2013",
+			"Who Wants To",
+			"who wants",
+			"who want to",
+			"02/02/2013",
+			"bte212",
+			"02/02/2013",
+			"title-list",
+			"\n Actual Format HD",
+			"\n Timing Sheet",
+			"\n Actual Format HD",
+			"<t /<a href=\"episode.php\"> >",
+			"<td><a href=\"version.php\">",
+			"version.php\">Double</a>",
+			"Double Weekend",
+			"\n Timing Sheet",
+			"Double Weekend with Repeat",
+			" Actual Format",
+			" Actual Format HD",
+			" Timing Sheet",
+			"(",
+			"Actual Format HD\n	 Actual Format\n	 Timing Sheet",
+			"/2012",
+			"/2013	BTE",
+			"<tr class=\"syndication\">",
+			"<tr>",
+			"2008-2009",
+			"009-2010",
+			"<td>Episode Name</td>",
+			"2010-2011",
+			"2011-2012",
+			"buena",
+			"<td>Buena Vista",
+			"</>td>",
+			"castle",
+			"according to jim",
+			"<tr>\n		<td>",
+			"…",
+			">\n",
+			"</tr>\n\n	<tr>",
+			"\n	<tr>",
+			"/20",
+			"Imagination",
+			"Buena Vista",
+			"<tr>",
+			"<td>Buena",
+			"<td>Imagination",
+			"Imagination",
+			"Buena Vista",
+			"-20",
+			"20",
+			"<tr data-id='airdate",
+			"title",
+			" title",
+			"title",
+			"check",
+			"about",
+			"castle",
+			"revoke",
+			"Vista 6",
+			"vista 6",
+			"actual format",
+			"actual formate",
+			"ad restric",
+			"actual format",
+			"<tr data-id=\"file",
+			"<tr data-id=",
+			"<tr",
+			"<tr>",
+			"actual format",
+			"mon-fri",
+			"active win",
+			"mon-fri",
+			"air date",
+			"active wind",
+			"clearances",
+			"active windows"
 		],
-		"highlight": true,
+		"highlight": false,
 		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"&hellip;",
+			"2013",
+			"<td>11/",
+			"/",
+			"<td>",
+			"/2013</td>",
+			"2013",
+			"/2013</td>",
+			"2013",
+			"<a class=\"admin btn btn-small\" href=\"#addFiles\" role=\"button\" data-toggle=\"modal\"><i class=\"icon-upload\"></i> Manage Files</a>",
+			"<a class=\"btn btn-small\" href=\"#assets\" role=\"button\" data-toggle=\"modal\"><i class=\"icon-download-alt\"></i> Assets</a>\n								<a class=\"admin btn btn-small\" href=\"#addFileMovie\" role=\"button\" data-toggle=\"modal\"><i class=\"icon-plus\"></i> Add File</a>",
+			"<a class=\"btn btn-small\" href=\"#assets\"",
+			"icon-download-alt",
+			"icon-plus",
+			"icon-download-alt",
+			"icon-arrow-down",
+			"<a class=\"admin btn btn-small\" href=\"#addFileMovie\" role=\"button\" data-toggle=\"modal\"><i class=\"icon-upload\"></i> Add File</a>&nbsp;<a class=\"admin btn btn-small\" href=\"#assets\" role=\"button\" data-toggle=\"modal\"><i class=\"icon-download\"></i> Assets</a>",
+			"<td>\n								<ul>\n									<li><a href=\"test.pdf\" target=\"blank\">Ad Restrictions</a></li>\n								</ul>\n								<a class=\"admin btn btn-small\" href=\"#addFileMovie\" role=\"button\" data-toggle=\"modal\"><i class=\"icon-upload\"></i> Add File</a>\n								<a class=\"admin btn btn-small\" href=\"#assets\" role=\"button\" data-toggle=\"modal\"><i class=\"icon-download\"></i> Assets</a>\n							</td>",
+			"</td>\n							<td>",
+			"<tr>\n							<td>",
+			"<a href=\"test.pdf\" target=\"blank\">Ad Restrictions</a><a class=\"admin btn btn-small\" href=\"#addFileMovie\" role=\"button\" data-toggle=\"modal\"><i class=\"icon-upload\"></i> Add File</a><a class=\"admin btn btn-small\" href=\"#assets\" role=\"button\" data-toggle=\"modal\"><i class=\"icon-download\"></i> Assets</a>",
+			"<a class=\"admin btn btn-small\" href=\"#assets\" role=\"button\" data-toggle=\"modal\"><i class=\"icon-download\"></i> Assets</a>",
+			"File1",
+			"editFileMovie",
+			"addFileMovie",
+			"<a href=\"#synopsis\" data-toggle=\"modal\">synopsis</a>",
+			"<a href=\"#revokeClearance2\" data-toggle=\"modal\"><i data-rel=\"tooltip\" class=\"icon-time\" data-original-title=\"Imported from ProView\"></i></a>",
+			"data-rel=\"tooltip\"",
+			"<i data-rel=\"tooltip\" ",
+			"data-rel=",
+			"disabled=disabled",
+			"</li>",
+			"Movie&nbsp;Distribution&nbsp;Information",
+			"Movie&nbsp;Segment&nbsp;Timing&nbsp;Sheet",
+			"</a>",
+			"<li>",
+			"<i class=\" disabled icon-time\"></i>",
+			"5px 0 5px 20px",
+			"left",
+			"../img",
+			",null,",
+			"','",
+			"zmb",
+			"Locations",
+			"http://zmb-dev.rtraction.com/brantjobs_ws/brantjobs.wdsl",
+			"<?php print $namespace; ?>",
+			"tns:",
+			"xsd:",
+			"$this->_query",
+			"$params",
+			"",
+			"\n\n",
+			"\n",
+			"\n\n",
+			"\n",
+			":</h3>",
+			"array_combine($processing_codes[1],$processing_codes[1])",
+			"",
+			"style/",
+			"listing_files/style/",
+			"  ",
+			" ",
+			"'+",
+			"",
+			"Adip",
+			"Adip\n</p><p>",
+			"arcu.</p><p>\n</p><p>",
+			"13",
+			"12",
+			"11",
+			"10",
+			"9",
+			"8",
+			"7",
+			"6",
+			"5",
+			"4",
+			"3",
+			"$councillor",
+			"../../../sites/default",
+			"",
+			"!$breadcrumb",
+			"<div id=\"site-slogan\" class=\"hide-text\">",
+			"<div id=\"site-slogan hide-text\">",
+			".figure",
+			"$result",
+			"$item",
+			"results",
+			"$vote",
+			"councillor",
+			"Councillor"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -83,41 +973,15 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "css/main.css",
 					"settings":
 					{
-						"buffer_size": 499,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								499,
-								499
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<script src=\"http://ajax.googleapis.com/ajax/libs/",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 2903,
+						"buffer_size": 5320,
 						"regions":
 						{
 						},
@@ -130,12 +994,115 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1961.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 4712,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2455,
+								2462
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 423.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/main.js",
+					"settings":
+					{
+						"buffer_size": 4678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1757,
+								1757
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/nouns.js",
+					"settings":
+					{
+						"buffer_size": 116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								114,
+								114
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/weather.js",
+					"settings":
+					{
+						"buffer_size": 2090,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1766,
+								1766
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -145,11 +1112,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 38.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 38.0
 	},
 	"layout":
 	{
@@ -176,7 +1143,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 0.0
+		"height": 70.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -184,21 +1151,217 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"scrip",
+				"js/script.js"
+			],
+			[
+				"sc",
+				"js/script.js"
+			],
+			[
+				"script",
+				"js/script.js"
+			],
+			[
+				"lobvo",
+				"lob-vod.php"
+			],
+			[
+				"mod",
+				"modals.php"
+			],
+			[
+				"moda",
+				"modals.php"
+			],
+			[
+				"modal",
+				"modals.php"
+			],
+			[
+				"contoper",
+				"app/controllers/operations_controller.php"
+			],
+			[
+				"work",
+				"app/views/elements/work_order.ctp"
+			],
+			[
+				"contrship",
+				"app/controllers/shipments_controller.php"
+			],
+			[
+				"shiprep",
+				"app/views/shipments/shipping_report.ctp"
+			],
+			[
+				"conor",
+				"app/controllers/orders_controller.php"
+			],
+			[
+				"contord",
+				"app/controllers/order_items_controller.php"
+			],
+			[
+				"viewwork",
+				"app/views/elements/work_order.ctp"
+			],
+			[
+				"viewcustomeredi",
+				"app/views/customers/edit.ctp"
+			],
+			[
+				"controlcust",
+				"app/controllers/customers_controller.php"
+			],
+			[
+				"array",
+				"v3/application/helpers/array_to_excel_helper.php"
+			],
+			[
+				"array_to",
+				"v3/application/helpers/array_to_xml_helper.php"
+			],
+			[
+				"controllasset",
+				"v3/application/controllers/assets.php"
+			],
+			[
+				"controllers/",
+				"v3/application/controllers/candist.php"
+			],
+			[
+				"olddis",
+				"v3/application/helpers/olddisney_helper.php"
+			],
+			[
+				"contoasset",
+				"v3/application/controllers/assets.php"
+			],
+			[
+				"usermana",
+				"v3/application/libraries/Usermanager.php"
+			],
+			[
+				"job.php",
+				"application/controllers/job.php"
+			],
+			[
+				"modelcustom",
+				"models/model_customer.php"
+			],
+			[
+				"controcus",
+				"controllers/customers_admin.php"
+			],
+			[
+				"soa",
+				"/C/websites/ncbb/webservice/soap.php"
+			],
+			[
+				"modelorderitem",
+				"models/order_item.php"
+			],
+			[
+				"workorder",
+				"views/elements/work_order.ctp"
+			],
+			[
+				"modelorderite",
+				"models/order_item.php"
+			],
+			[
+				"controoper",
+				"controllers/operations_controller.php"
+			],
+			[
+				"viewselemit",
+				"views/elements/itemform.ctp"
+			],
+			[
+				"helper",
+				"views/helpers/op.php"
+			],
+			[
+				"viewsworko",
+				"views/elements/work_order.ctp"
+			],
+			[
+				"documents.php",
+				"libraries/Documents.php"
+			],
+			[
+				"model_candist_season_document",
+				"models/model_candist_season_document.php"
+			],
+			[
+				"conasset",
+				"controllers/assets.php"
+			],
+			[
+				"modelasset",
+				"models/model_asset.php"
+			],
+			[
+				"contrasset",
+				"controllers/assets.php"
+			],
+			[
+				"conuser",
+				"controllers/user.php"
+			],
+			[
+				"viewuseredit",
+				"views/user/edit.php"
+			],
+			[
+				"conuse",
+				"controllers/user.php"
+			],
+			[
+				"viewuser",
+				"views/user/edit.php"
+			],
+			[
+				"model_user",
+				"models/model_user.php"
+			],
+			[
+				"clearance",
+				"models/model_clearance.php"
+			],
+			[
+				"viewuserass",
+				"views/user/asset_clearance.php"
+			],
+			[
+				"",
+				"untitled"
+			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"/C/websites/sites-dev.rtraction.com/disneyabctv/disneyabc.sublime-project"
+			],
+			[
+				"d",
+				"/C/websites/sites-dev.rtraction.com/disneyabctv/disneyabc.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 227.0,
 	"status_bar_visible": true
 }

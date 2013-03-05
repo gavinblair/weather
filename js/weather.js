@@ -50,7 +50,7 @@ var wunderground = function(apiKey, system) {
 						high: data.forecast.simpleforecast.forecastday[i].high[wunderground.prototype.unit.name]
 					});
 				}
-
+				
 				if(callback){
 					callback(wunderground.prototype.forecast);
 				}
