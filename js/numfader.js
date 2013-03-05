@@ -27,7 +27,7 @@ var numfader = function(el){
 			if(i === to) {
 				clearInterval(timer);
 				if(callback){
-					callback();
+					callback(el);
 				}
 			}
 		}, interval);
@@ -48,7 +48,7 @@ var numfader = function(el){
 			if(r === toRGB.r && g === toRGB.g && b === toRGB.b) {
 				clearInterval(timer);
 				if(callback){
-					callback();
+					callback(el);
 				}
 			}
 		}, interval);

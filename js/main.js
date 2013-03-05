@@ -2,18 +2,6 @@ var weatherbacon = function(){
 	var weather;
 	$(document).ready(function($) {
 
-		$('#bigIcon').load('img/eggs.svg', function(){
-			$('h1').toggle();
-			$('p').toggle();
-		});
-
-		$('.icon').load('img/eggs.svg', function(){
-			$('strong').toggle();
-		});
-
-
-			$('strong').toggle();
-
 		weather = new wunderground('160caaa27c885952', 'metric');
 
 		weather.updateCurrent(function(current){
@@ -38,6 +26,15 @@ var weatherbacon = function(){
 
 			$("#container").html(weather_template);
 
+			$('#bigIcon').load('img/eggs.svg', function(){
+				$('h1').toggle();
+				$('p').toggle();
+			});
+
+			$('.icon').load('img/eggs.svg', function(){
+				$('strong').toggle();
+			});
+
 			/* prevent "0" being on the screen while we wait for a new value */
 			document.getElementById("temp").style.visibility='visible';
 
@@ -47,8 +44,9 @@ var weatherbacon = function(){
 			if(Math.abs(parseInt(current.feelslike,10)) < 10) {
 				interval = 100;
 			}
-			tempEffect.animateText(0, parseInt(current.feelslike,10), interval, function(){
-				$(tempEffect.el).addClass('animated bounceIn');
+			tempEffect.animateText(0, parseInt(current.feelslike,10), interval, function(el){
+				console.log(el);
+				$(el).addClass('animated bounceIn');
 			});
 
 			var bgEffect = new numfader($('body')[0]);
