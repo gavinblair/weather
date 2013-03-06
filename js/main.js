@@ -38,15 +38,19 @@ var weatherbacon = function(){
 					$('p').toggle();
 				});
 
-				//console.log(weather.current);
+				console.log(weather.forecast);
 
 				weather.current.feelslike;
 
+				$('nav ul').html('');
+				$.each(weather.forecast, function(index, value){
+					var icon = getIcon(value.high, value.english);
+					$('.icon').load(icon.url, function(){
 
-				$('.icon').load('img/eggs.svg', function(){
-					$('strong').toggle();
+						$(this).toggle();
+					});
 				});
-
+					
 				/* prevent "0" being on the screen while we wait for a new value */
 				document.getElementById("temp").style.visibility='visible';
 
