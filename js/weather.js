@@ -1,44 +1,69 @@
-function weather(api_key){
+var wunderground = function(apiKey, system) {
 	//initialize
-	weather.prototype.weather = "";
-	weather.prototype.get_current = function get_current(func){
-		$.ajax({
-			url : "http://api.wunderground.com/api/"+api_key+"/geolookup/conditions/q/zmw:00000.1.71623.json",
+	wunderground.prototype.unit = {
+		code:	'c',
+		name: 'celsius'
+	};
+	if(system === 'imperial') {
+		wunderground.prototype.unit = {
+			code: 'f',
+			name: 'fahrenheit'
+		};
+	}
+	wunderground.prototype.weather = '';
+	wunderground.prototype.location = '';
+	wunderground.prototype.updateCurrent = function(callback) {
+		return $.ajax({
+			url : 'http://api.wunderground.com/api/'+apiKey+'/geolookup/conditions/q/zmw:00000.1.71623.json',
 
-			dataType : "jsonp",
-			success : function(parsed_json) {
-				current_weather = {};
-				current_weather.celcius = {};
-				current_weather.farenheit = {};
-				current_weather.celcius.feelslike = parsed_json.current_observation.feelslike_c;
-				current_weather.celcius.temp = parsed_json.current_observation.temp_c;
-				current_weather.farenheit.feelslike = parsed_json.current_observation.feelslike_f;
-				current_weather.farenheit.temp = parsed_json.current_observation.temp_f;
-				current_weather.weather = parsed_json.current_observation.weather;
-				current_weather.wind = parsed_json.current_observation.wind_string;
-				current_weather.updated = parsed_json.current_observation.observation_time;
+			dataType : 'jsonp',
+			success : function(data) {
+				wunderground.prototype.current = {
+					feelslike: data.current_observation['feelslike_'+wunderground.prototype.unit.code],
+					temp: data.current_observation['temp_'+wunderground.prototype.unit.code],
+					english: data.current_observation.weather,
+					wind: data.current_observation.wind_string,
+					updated: data.current_observation.observation_time
+				};
 
-				this.weather = current_weather;
-				func(this.weather);
+				if(callback){
+					callback(wunderground.prototype.current);
+				}
 			}
 		});
-	}
+	};
 
-	/*weather.prototype.get_forecast = function get_forecast(){
+	wunderground.prototype.updateForecast = function(callback){
+		return $.ajax({
+			url : 'http://api.wunderground.com/api/'+apiKey+'/forecast10day/q/zmw:00000.1.71623.json',
+			dataType : 'jsonp',
+			success : function(data) {
 
-		$.ajax({
-			url : "http://api.wunderground.com/api/160caaa27c885952/forecast/q/zmw:00000.1.71623.json",
-
-			dataType : "jsonp",
-			success : function(parsed_json) {
-				console.log(parsed_json.forecast);
+				var num_days = data.forecast.simpleforecast.forecastday.length;
+				wunderground.prototype.forecast = [];
+				 
+				for(var i = 0; i<num_days; i++){
+					wunderground.prototype.forecast.push({
+						title: data.forecast.txt_forecast.forecastday[i].title,
+						english: data.forecast.simpleforecast.forecastday[i].conditions,
+						low: data.forecast.simpleforecast.forecastday[i].low[wunderground.prototype.unit.name],
+						high: data.forecast.simpleforecast.forecastday[i].high[wunderground.prototype.unit.name]
+					});
+				}
+				
+				if(callback){
+					callback(wunderground.prototype.forecast);
+				}
 			}
-		}); 
+		});
+	};
 
+
+/*
 		$.ajax({
-			url : "http://api.wunderground.com/api/160caaa27c885952/forecast10day/q/zmw:00000.1.71623.json",
+			url : 'http://api.wunderground.com/api/160caaa27c885952/forecast10day/q/zmw:00000.1.71623.json',
 
-			dataType : "jsonp",
+			dataType : 'jsonp',
 			success : function(parsed_json) {
 				console.log(parsed_json.forecast);
 			}
@@ -46,4 +71,4 @@ function weather(api_key){
 
 	}*/
 
-}
+};
