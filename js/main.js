@@ -11,6 +11,8 @@ var weatherbacon = function(){
 				$("#forecast").html(weather_template);				
 			
 
+				console.log(forecast[0].title);
+
 				var weather_template = ich.weather({
 					"feelslike": current.feelslike,
 					"english": current.english,
@@ -21,7 +23,22 @@ var weatherbacon = function(){
 							high: '36'
 						},
 						{
-							index: 1,
+							index: 2,
+							letter: 'M',
+							high: '36'
+						},
+						{
+							index: 3,
+							letter: 'M',
+							high: '36'
+						},
+						{
+							index: 4,
+							letter: 'M',
+							high: '36'
+						},
+						{
+							index: 5,
 							letter: 'M',
 							high: '36'
 						}
