@@ -40,17 +40,17 @@
         <link rel="stylesheet" href="http://code.jquery.com/qunit/qunit-1.11.0.css?v=1">
         <script id="weather" type="text/html">
             <article>
-                <h1 id='temp'>0</h1>
-                <h1 style="display:none" id="bigIcon" class="animated bounceIn"></h1>
-                <p>{{english}}</p>
-                <p style="display:none"></p>
+                <h1 class="num" id='temp'>0</h1>
+                <h1 style="display:none" id="bigIcon" class="animated bounceIn icon"></h1>
+                <p class="num">{{english}}</p>
+                <p class="icon" style="display:none"></p>
             </article>
             <nav>
                 <ul>
                     {{#forecast}}
                         <li>
                         	<a href="#day{{index}}">
-                        		<strong class="animated bounceIn">{{high}}</strong>
+                        		<strong class="animated bounceIn num">{{high}}</strong>
                         		<strong style="display:none" class="icon animated bounceIn">{{high}}</strong>
                         		<span>{{letter}}</span>
                         	</a>

@@ -2,6 +2,10 @@ var weatherbacon = function(){
 	var weather;
 	$(document).ready(function($) {
 
+		$('h1').live('click', function(){
+			$('.icon, .num').toggle();
+		});
+
 		weather = new wunderground('160caaa27c885952', 'metric');
 
 		weather.updateCurrent(function(current){
@@ -11,7 +15,7 @@ var weatherbacon = function(){
 				$("#forecast").html(weather_template);				
 			
 
-				console.log(forecast[0].title);
+				console.log(forecast[0].title.substring(0,1));
 
 				var weather_template = ich.weather({
 					"feelslike": current.feelslike,
@@ -19,28 +23,28 @@ var weatherbacon = function(){
 					"forecast": [
 						{
 							index: 1,
-							letter: 'M',
-							high: '36'
-						},
-						{
-							index: 2,
-							letter: 'M',
-							high: '36'
+							letter: forecast[1].title.substring(0,1),
+							high: forecast[1].high
 						},
 						{
 							index: 3,
-							letter: 'M',
-							high: '36'
-						},
-						{
-							index: 4,
-							letter: 'M',
-							high: '36'
+							letter: forecast[3].title.substring(0,1),
+							high: forecast[3].high
 						},
 						{
 							index: 5,
-							letter: 'M',
-							high: '36'
+							letter: forecast[5].title.substring(0,1),
+							high: forecast[5].high
+						},
+						{
+							index: 7,
+							letter: forecast[7].title.substring(0,1),
+							high: forecast[7].high
+						},
+						{
+							index: 9,
+							letter: forecast[9].title.substring(0,1),
+							high: forecast[9].high
 						}
 					],
 					"unit": weather.unit.code.toUpperCase()
@@ -55,16 +59,12 @@ var weatherbacon = function(){
 					$('p').toggle();
 				});
 
-				console.log(weather.forecast);
-
 				weather.current.feelslike;
 
-				$('nav ul').html('');
-				$.each(weather.forecast, function(index, value){
+				$('strong.icon').each(function(index, value){
 					var icon = getIcon(value.high, value.english);
-					$('.icon').load(icon.url, function(){
-
-						$(this).toggle();
+					$(this).load(icon.url, function(){
+						$(this).parent().children('strong').toggle();
 					});
 				});
 					
