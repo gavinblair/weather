@@ -11,7 +11,7 @@ var weatherbacon = function(){
 				$("#forecast").html(weather_template);				
 			
 
-				console.log(forecast[0].title.substring(0,1));
+				console.log(forecast[0].title);
 
 				var weather_template = ich.weather({
 					"feelslike": current.feelslike,
@@ -19,28 +19,28 @@ var weatherbacon = function(){
 					"forecast": [
 						{
 							index: 1,
-							letter: forecast[1].title.substring(0,1),
-							high: forecast[1].high
+							letter: forecast[0].title,
+							high: '36'
+						},
+						{
+							index: 2,
+							letter: forecast[2].title,
+							high: '36'
 						},
 						{
 							index: 3,
-							letter: forecast[3].title.substring(0,1),
-							high: forecast[3].high
+							letter: forecast[4].title,
+							high: '36'
+						},
+						{
+							index: 4,
+							letter: forecast[6].title,
+							high: '36'
 						},
 						{
 							index: 5,
-							letter: forecast[5].title.substring(0,1),
-							high: forecast[5].high
-						},
-						{
-							index: 7,
-							letter: forecast[7].title.substring(0,1),
-							high: forecast[7].high
-						},
-						{
-							index: 9,
-							letter: forecast[9].title.substring(0,1),
-							high: forecast[9].high
+							letter: forecast[8].title,
+							high: '36'
 						}
 					],
 					"unit": weather.unit.code.toUpperCase()
@@ -55,15 +55,17 @@ var weatherbacon = function(){
 					$('p').toggle();
 				});
 
-				weather.current.feelslike;
+				console.log(weather.forecast);
 
-				$('strong.icon').each(function(index, value){
+				$('nav ul').html('');
+				$.each(weather.forecast, function(index, value){
 					var icon = getIcon(value.high, value.english);
-					$(this).load(icon.url, function(){
-						$(this).parent().children('strong').toggle();
+					$('.icon').load(icon.url, function(){
+
+						$(this).toggle();
 					});
 				});
-					
+
 				/* prevent "0" being on the screen while we wait for a new value */
 				document.getElementById("temp").style.visibility='visible';
 
@@ -88,11 +90,69 @@ var weatherbacon = function(){
 
 	});
 
-	function getIcon(temperature, precipitation) {
-		var icon = {
-			credit: '<a href="http://thenounproject.com/noun/egg/#icon-No4122" target="_blank">Egg</a> designed by <a href="http://thenounproject.com/jacob" target="_blank">Jacob Halton</a> from The Noun Project',
-			url: 'img/eggs.svg'
-		};
+	function getIcon(temperature, english) {
+		var icon = {};
+		var iconSet = '';
+		var wetConditions = [
+			'Chance of Flurries',
+			'Chance of Rain',
+			'Chance of Freezing Rain',
+			'Chance of Sleet',
+			'Chance of Snow',
+			'Chance of Thunderstorms',
+			'Chance of a Thunderstorm',
+			'Flurries',
+			'Freezing Rain',
+			'Rain',
+			'Sleet',
+			'Thunderstorms',
+			'Thunderstorm'
+		];
+
+		//hot or cold
+		if(temperature > 0){
+			iconSet = 'hot';
+		}else{
+			iconSet = 'cold';
+		}
+
+		//wet or dry
+		if(arrValues.indexOf(english) > -1){
+			iconSet = iconSet+'wet';
+		}else{
+			iconSet = iconSet+'dry';
+		}
+
+		switch(iconSet){
+			case 'hotdry':
+				icon = [{
+						credit: '<a href="http://thenounproject.com/noun/egg/#icon-No4122" target="_blank">Egg</a> designed by <a href="http://thenounproject.com/jacob" target="_blank">Jacob Halton</a> from The Noun Project',
+						url: 'img/eggs.svg'
+					}];
+				break;
+			case 'hotwet':
+				icon = [{
+						credit: '<a href="http://thenounproject.com/noun/umbrella/#icon-No795" target="_blank">Umbrella</a> designed by <a href="http://thenounproject.com/Kortschot" target="_blank">Paul te Kortschot</a> from The Noun Project',
+						url: 'img/umbrella.svg'
+					}];
+				break;
+			case 'colddry':
+				icon = [{
+						credit: '<a href="http://thenounproject.com/noun/mittens/#icon-No3812" target="_blank">Mittens</a> designed by <a href="http://thenounproject.com/darrin.higgins" target="_blank">Darrin Higgins</a> from The Noun Project',
+						url: 'img/mittens.svg'
+					}];
+				break;
+			//case 'coldwet':
+			default:
+				icon = [{
+						credit: '<a href="http://thenounproject.com/noun/snow-globe/#icon-No8114" target="_blank">Snow Globe</a> designed by <a href="http://thenounproject.com/The Moza" target="_blank">Anna Weiss</a> from The Noun Project',
+						url: 'img/snowglobe.svg'
+					}];
+		}
+
+		//todo: more than one icon, choose it at random.
+		//then, make sure you don't use the same one twice
+
 		return icon;
 	}
 
