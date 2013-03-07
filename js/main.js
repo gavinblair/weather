@@ -2,10 +2,6 @@ var weatherbacon = function(){
 	var weather;
 	$(document).ready(function($) {
 
-		$('h1').live('click', function(){
-			$('.icon, .num').toggle();
-		});
-
 		weather = new wunderground('160caaa27c885952', 'metric');
 
 		weather.updateCurrent(function(current){
