@@ -120,7 +120,7 @@ nav li{
 	font-weight: normal;
 	font-size: 30px;
 }
-span{
+li:first-child span{
 	border-bottom: 1px solid #fff;
 }
 
