@@ -1,0 +1,325 @@
+
+{
+	"response": {
+		"version": "0.1"
+		,"termsofService": "http://www.wunderground.com/weather/api/d/terms.html"
+		,"features": {
+		"geolookup": 1
+		,
+		"conditions": 1
+		}
+	}
+		,	"location": {
+		"type":"INTLCITY",
+		"country":"CA",
+		"country_iso3166":"CA",
+		"country_name":"Canada",
+		"state":"ON",
+		"city":"London",
+		"tz_short":"EDT",
+		"tz_long":"America/Montreal",
+		"lat":"43.02999878",
+		"lon":"-81.15000153",
+		"zip":"00000",
+		"magic":"1",
+		"wmo":"71623",
+		"l":"/q/zmw:00000.1.71623",
+		"requesturl":"global/stations/71623.html",
+		"wuiurl":"http://www.wunderground.com/global/stations/71623.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"London, Ont.", "state":"", "country":"Canada", "icao":"CYXU", "lat":"43.03333282", "lon":"-81.15000153" },
+		{ "city":"London", "state":"", "country":"CA", "icao":"CYXU", "lat":"43.02999878", "lon":"-81.15000153" },
+		{ "city":"Delhi", "state":"", "country":"CA", "icao":"CXDI", "lat":"42.86999893", "lon":"-80.55000305" },
+		{ "city":"Waterloo Wellington", "state":"", "country":"CA", "icao":"CYKF", "lat":"43.47000122", "lon":"-80.37999725" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Highbury/Huron",
+		"city":"London",
+		"state":"ONTARIO",
+		"country":"Canada",
+		"id":"IONTARIO189",
+		"lat":43.020050,
+		"lon":-81.224358,
+		"distance_km":6,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Stoney Creek, London",
+		"city":"London",
+		"state":"ON",
+		"country":"CANADA",
+		"id":"IONLONDO10",
+		"lat":43.046253,
+		"lon":-81.249359,
+		"distance_km":8,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Woodfield",
+		"city":"London",
+		"state":"ONTARIO",
+		"country":"CANADA",
+		"id":"IONTARIO238",
+		"lat":42.990002,
+		"lon":-81.236946,
+		"distance_km":8,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"",
+		"city":"Dorchester",
+		"state":"ON",
+		"country":"Canada",
+		"id":"IONDORCH1",
+		"lat":42.993458,
+		"lon":-81.051933,
+		"distance_km":8,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Old South London",
+		"city":"London",
+		"state":"ONTARIO",
+		"country":"Canada",
+		"id":"IONTARIO179",
+		"lat":42.966366,
+		"lon":-81.247917,
+		"distance_km":10,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"",
+		"city":"Arva",
+		"state":"Ontario",
+		"country":"CANADA",
+		"id":"IONTARIO526",
+		"lat":43.050453,
+		"lon":-81.294998,
+		"distance_km":11,
+		"distance_mi":7
+		},
+		{
+		"neighborhood":"Whitehills",
+		"city":"London",
+		"state":"ONTARIO",
+		"country":"CANADA",
+		"id":"IONTARIO363",
+		"lat":42.998486,
+		"lon":-81.309746,
+		"distance_km":13,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"",
+		"city":"London",
+		"state":"ON",
+		"country":"CANADA",
+		"id":"IONLONDO8",
+		"lat":43.003410,
+		"lon":-81.312744,
+		"distance_km":13,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"Westmount",
+		"city":"London",
+		"state":"Ontario",
+		"country":"Canada",
+		"id":"IONTARIO365",
+		"lat":42.949928,
+		"lon":-81.278381,
+		"distance_km":13,
+		"distance_mi":8
+		},
+		{
+		"neighborhood":"Byron",
+		"city":"London",
+		"state":"ON",
+		"country":"CANADA",
+		"id":"IONLONDO5",
+		"lat":42.951057,
+		"lon":-81.342102,
+		"distance_km":17,
+		"distance_mi":10
+		},
+		{
+		"neighborhood":"Byron",
+		"city":"London",
+		"state":"ON",
+		"country":"CANADA",
+		"id":"IONLONDO9",
+		"lat":42.951084,
+		"lon":-81.342201,
+		"distance_km":17,
+		"distance_mi":10
+		},
+		{
+		"neighborhood":"Lambeth",
+		"city":"London",
+		"state":"ON",
+		"country":"CANADA",
+		"id":"IONLONDO2",
+		"lat":42.907768,
+		"lon":-81.306938,
+		"distance_km":18,
+		"distance_mi":11
+		},
+		{
+		"neighborhood":"Highbury/Truman Line",
+		"city":"St Thomas",
+		"state":"ONTARIO",
+		"country":"CANADA",
+		"id":"IONTARIO360",
+		"lat":42.848526,
+		"lon":-81.152794,
+		"distance_km":20,
+		"distance_mi":12
+		},
+		{
+		"neighborhood":"",
+		"city":"Komoka",
+		"state":"ONTARIO",
+		"country":"CANADA",
+		"id":"IONTARIO373",
+		"lat":42.957260,
+		"lon":-81.408691,
+		"distance_km":22,
+		"distance_mi":13
+		},
+		{
+		"neighborhood":"Komoka Village",
+		"city":"Komoka",
+		"state":"ONTARIO",
+		"country":"CANADA",
+		"id":"IONTARIO226",
+		"lat":42.954243,
+		"lon":-81.434883,
+		"distance_km":24,
+		"distance_mi":14
+		},
+		{
+		"neighborhood":"The Haley Residence",
+		"city":"East Zorra-Tavistock",
+		"state":"ON",
+		"country":"CANADA",
+		"id":"IONEASTZ2",
+		"lat":43.173584,
+		"lon":-80.746033,
+		"distance_km":36,
+		"distance_mi":21
+		},
+		{
+		"neighborhood":"",
+		"city":"Sparta",
+		"state":"ONTARIO",
+		"country":"CANADA",
+		"id":"IONTARIO388",
+		"lat":42.705063,
+		"lon":-81.081558,
+		"distance_km":36,
+		"distance_mi":21
+		},
+		{
+		"neighborhood":"Harty\u0027s",
+		"city":"Stratford",
+		"state":"ONTARIO",
+		"country":"CANADA",
+		"id":"IONTARIO312",
+		"lat":43.360153,
+		"lon":-80.982811,
+		"distance_km":39,
+		"distance_mi":23
+		}
+		]
+		}
+		}
+	}
+		,	"current_observation": {
+		"image": {
+		"url":"http://icons-ak.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"London, Ontario",
+		"city":"London",
+		"state":"ON",
+		"state_name":"Ontario",
+		"country":"CA",
+		"country_iso3166":"CA",
+		"zip":"00000",
+		"latitude":"43.02999878",
+		"longitude":"-81.15000153",
+		"elevation":"278.00000000"
+		},
+		"observation_location": {
+		"full":"London, Ont., ",
+		"city":"London, Ont.",
+		"state":"",
+		"country":"Canada",
+		"country_iso3166":"CA",
+		"latitude":"43.03333282",
+		"longitude":"-81.15000153",
+		"elevation":"912 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"CYXU",
+		"observation_time":"Last Updated on March 24, 8:00 PM EDT",
+		"observation_time_rfc822":"Sun, 24 Mar 2013 20:00:00 -0400",
+		"observation_epoch":"1364169600",
+		"local_time_rfc822":"Sun, 24 Mar 2013 20:20:02 -0400",
+		"local_epoch":"1364170802",
+		"local_tz_short":"EDT",
+		"local_tz_long":"America/Montreal",
+		"local_tz_offset":"-0400",
+		"weather":"Overcast",
+		"temperature_string":"32 F (0 C)",
+		"temp_f":32,
+		"temp_c":0,
+		"relative_humidity":"59%",
+		"wind_string":"From the East at 14 MPH",
+		"wind_dir":"East",
+		"wind_degrees":80,
+		"wind_mph":14,
+		"wind_gust_mph":0,
+		"wind_kph":22,
+		"wind_gust_kph":0,
+		"pressure_mb":"1008",
+		"pressure_in":"29.75",
+		"pressure_trend":"-",
+		"dewpoint_string":"23 F (-5 C)",
+		"dewpoint_f":23,
+		"dewpoint_c":-5,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"32 F (0 C)",
+		"feelslike_f":"32",
+		"feelslike_c":"0",
+		"visibility_mi":"15.0",
+		"visibility_km":"24.0",
+		"solarradiation":"",
+		"UV":"0",
+		"precip_1hr_string":" in ( mm)",
+		"precip_1hr_in":"",
+		"precip_1hr_metric":"",
+		"precip_today_string":" in ( mm)",
+		"precip_today_in":"",
+		"precip_today_metric":"",
+		"icon":"cloudy",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/nt_cloudy.gif",
+		"forecast_url":"http://www.wunderground.com/global/stations/71623.html",
+		"history_url":"http://www.wunderground.com/history/airport/CYXU/2013/3/24/DailyHistory.html",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=43.03333282,-81.15000153"
+	}
+}

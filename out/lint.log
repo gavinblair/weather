@@ -1,0 +1,143 @@
+FAIL	js/main.js (51)
+js/main.js:1:28	Expected exactly one space between 'function' and '('.
+js/main.js:1:30	Expected exactly one space between ')' and '{'.
+js/main.js:1:30	Missing space between ')' and '{'.
+js/main.js:2:3	Missing 'use strict' statement.
+js/main.js:3:29	Expected exactly one space between 'function' and '('.
+js/main.js:7:35	Expected exactly one space between 'function' and '('.
+js/main.js:7:44	Expected exactly one space between ')' and '{'.
+js/main.js:7:44	Missing space between ')' and '{'.
+js/main.js:9:38	Expected exactly one space between 'function' and '('.
+js/main.js:9:48	Expected exactly one space between ')' and '{'.
+js/main.js:9:48	Missing space between ')' and '{'.
+js/main.js:12:13	Combine this with the previous 'var' statement.
+js/main.js:12:13	'weather_template' is already defined.
+js/main.js:18:53	Missing space between ',' and '1'.
+js/main.js:23:53	Missing space between ',' and '1'.
+js/main.js:28:53	Missing space between ',' and '1'.
+js/main.js:33:53	Missing space between ',' and '1'.
+js/main.js:38:53	Missing space between ',' and '1'.
+js/main.js:47:13	Combine this with the previous 'var' statement.
+js/main.js:48:46	Expected exactly one space between 'function' and '('.
+js/main.js:48:48	Expected exactly one space between ')' and '{'.
+js/main.js:48:48	Missing space between ')' and '{'.
+js/main.js:54:24	Expected an assignment or function call and instead saw an expression.
+js/main.js:58:13	Combine this with the previous 'var' statement.
+js/main.js:60:39	Expected exactly one space between 'function' and '('.
+js/main.js:60:53	Expected exactly one space between ')' and '{'.
+js/main.js:60:53	Missing space between ')' and '{'.
+js/main.js:61:52	Missing space between 'index' and '*'.
+js/main.js:61:53	Missing space between '*' and '2'.
+js/main.js:61:84	Missing space between 'index' and '*'.
+js/main.js:61:85	Missing space between '*' and '2'.
+js/main.js:62:32	Missing space between 'url' and '+'.
+js/main.js:62:33	Missing space between '+' and '?1'.
+js/main.js:62:47	Expected exactly one space between 'function' and '('.
+js/main.js:62:49	Expected exactly one space between ')' and '{'.
+js/main.js:62:49	Missing space between ')' and '{'.
+js/main.js:66:1	Unexpected '(space)'.
+js/main.js:68:57	Missing space between 'visibility' and '='.
+js/main.js:68:58	Missing space between '=' and 'visible'.
+js/main.js:70:13	Combine this with the previous 'var' statement.
+js/main.js:71:13	Combine this with the previous 'var' statement.
+js/main.js:73:11	Expected exactly one space between 'if' and '('.
+js/main.js:73:48	Missing space between ',' and '10'.
+js/main.js:76:62	Missing space between ',' and '10'.
+js/main.js:76:85	Expected exactly one space between 'function' and '('.
+js/main.js:76:89	Expected exactly one space between ')' and '{'.
+js/main.js:76:89	Missing space between ')' and '{'.
+js/main.js:81:13	Combine this with the previous 'var' statement.
+js/main.js:82:13	Combine this with the previous 'var' statement.
+js/main.js:82:27	Missing radix parameter.
+js/main.js:82:27	Too many errors. (25% scanned).
+FAIL	js/nouns.js (3)
+js/nouns.js:10:17	Expected exactly one space between ')' and '{'.
+js/nouns.js:10:17	Missing space between ')' and '{'.
+js/nouns.js:12:1	Missing 'use strict' statement.
+FAIL	js/numfader.js (51)
+js/numfader.js:14:24	Expected exactly one space between 'function' and '('.
+js/numfader.js:14:28	Expected exactly one space between ')' and '{'.
+js/numfader.js:14:28	Missing space between ')' and '{'.
+js/numfader.js:17:3	Missing 'use strict' statement.
+js/numfader.js:18:1	Unexpected '(space)'.
+js/numfader.js:19:44	Expected exactly one space between 'function' and '('.
+js/numfader.js:19:50	Missing space between ',' and 'to'.
+js/numfader.js:19:53	Missing space between ',' and 'interval'.
+js/numfader.js:19:62	Missing space between ',' and 'callback'.
+js/numfader.js:20:7	Expected exactly one space between 'if' and '('.
+js/numfader.js:24:9	Combine this with the previous 'var' statement.
+js/numfader.js:24:37	Expected exactly one space between 'function' and '('.
+js/numfader.js:24:39	Expected exactly one space between ')' and '{'.
+js/numfader.js:24:39	Missing space between ')' and '{'.
+js/numfader.js:25:11	Unexpected dangling '_' in '_incrementNum'.
+js/numfader.js:25:27	Missing space between ',' and 'to'.
+js/numfader.js:27:9	Expected exactly one space between 'if' and '('.
+js/numfader.js:29:11	Expected exactly one space between 'if' and '('.
+js/numfader.js:29:21	Expected exactly one space between ')' and '{'.
+js/numfader.js:29:21	Missing space between ')' and '{'.
+js/numfader.js:36:56	Expected exactly one space between 'function' and '('.
+js/numfader.js:36:65	Missing space between ',' and 'toRGB'.
+js/numfader.js:36:71	Missing space between ',' and 'interval'.
+js/numfader.js:36:80	Missing space between ',' and 'callback'.
+js/numfader.js:36:89	Expected exactly one space between ')' and '{'.
+js/numfader.js:36:89	Missing space between ')' and '{'.
+js/numfader.js:37:7	Expected exactly one space between 'if' and '('.
+js/numfader.js:41:9	Combine this with the previous 'var' statement.
+js/numfader.js:42:9	Combine this with the previous 'var' statement.
+js/numfader.js:43:9	Combine this with the previous 'var' statement.
+js/numfader.js:43:37	Expected exactly one space between 'function' and '('.
+js/numfader.js:43:39	Expected exactly one space between ')' and '{'.
+js/numfader.js:43:39	Missing space between ')' and '{'.
+js/numfader.js:44:11	Unexpected dangling '_' in '_incrementNum'.
+js/numfader.js:44:27	Missing space between ',' and 'toRGB'.
+js/numfader.js:45:11	Unexpected dangling '_' in '_incrementNum'.
+js/numfader.js:45:27	Missing space between ',' and 'toRGB'.
+js/numfader.js:46:11	Unexpected dangling '_' in '_incrementNum'.
+js/numfader.js:46:27	Missing space between ',' and 'toRGB'.
+js/numfader.js:47:40	Missing space between 'rgb(' and '+'.
+js/numfader.js:47:41	Missing space between '+' and 'r'.
+js/numfader.js:47:42	Missing space between 'r' and '+'.
+js/numfader.js:47:43	Missing space between '+' and ','.
+js/numfader.js:47:46	Missing space between ',' and '+'.
+js/numfader.js:47:47	Missing space between '+' and 'g'.
+js/numfader.js:47:48	Missing space between 'g' and '+'.
+js/numfader.js:47:49	Missing space between '+' and ','.
+js/numfader.js:47:52	Missing space between ',' and '+'.
+js/numfader.js:47:53	Missing space between '+' and 'b'.
+js/numfader.js:47:54	Missing space between 'b' and '+'.
+js/numfader.js:47:54	Too many errors. (70% scanned).
+FAIL	js/tests.js (3)
+js/tests.js:2:27	Expected exactly one space between 'function' and '('.
+js/tests.js:3:5	Missing 'use strict' statement.
+js/tests.js:3:5	Expected 'var' at column 3, not column 5.
+FAIL	js/weather.js (28)
+js/weather.js:1:28	Expected exactly one space between 'function' and '('.
+js/weather.js:3:3	Missing 'use strict' statement.
+js/weather.js:7:5	Expected exactly one space between 'if' and '('.
+js/weather.js:15:50	Expected exactly one space between 'function' and '('.
+js/weather.js:17:47	Missing space between 'http://api.wunderground.com/api/' and '+'.
+js/weather.js:17:48	Missing space between '+' and 'apiKey'.
+js/weather.js:17:54	Missing space between 'apiKey' and '+'.
+js/weather.js:17:55	Missing space between '+' and '/geolookup/conditions/q/zmw:00000.1.71623.json'.
+js/weather.js:20:25	Expected exactly one space between 'function' and '('.
+js/weather.js:22:59	Missing space between 'feelslike_' and '+'.
+js/weather.js:22:60	Missing space between '+' and 'wunderground'.
+js/weather.js:23:49	Missing space between 'temp_' and '+'.
+js/weather.js:23:50	Missing space between '+' and 'wunderground'.
+js/weather.js:29:11	Expected exactly one space between 'if' and '('.
+js/weather.js:29:21	Expected exactly one space between ')' and '{'.
+js/weather.js:29:21	Missing space between ')' and '{'.
+js/weather.js:36:51	Expected exactly one space between 'function' and '('.
+js/weather.js:36:61	Expected exactly one space between ')' and '{'.
+js/weather.js:36:61	Missing space between ')' and '{'.
+js/weather.js:38:47	Missing space between 'http://api.wunderground.com/api/' and '+'.
+js/weather.js:38:48	Missing space between '+' and 'apiKey'.
+js/weather.js:38:54	Missing space between 'apiKey' and '+'.
+js/weather.js:38:55	Missing space between '+' and '/forecast10day/q/zmw:00000.1.71623.json'.
+js/weather.js:40:25	Expected exactly one space between 'function' and '('.
+js/weather.js:44:1	Unexpected '(space)'.
+js/weather.js:45:12	Missing space between 'for' and '('.
+js/weather.js:45:13	Move 'var' declarations to the top of the function.
+js/weather.js:45:13	Stopping. (60% scanned).
+
+# JSLint failed, 136 violations in 5 files.  5 files scanned.
