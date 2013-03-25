@@ -1,8 +1,8 @@
 var weatherbacon = function(){
 	var weather;
-	$(document).ready(function($) {
+	$(document).ready(function($) { 
 
-		weather = new wunderground('160caaa27c885952', 'metric');
+		weather = new Wunderground('160caaa27c885952', 'metric');
 
 		weather.updateCurrent(function(current){
 

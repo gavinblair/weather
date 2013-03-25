@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle>
+	
+		<file name="js/main.js">
+			
+				<error
+					line="1"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'function' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="1"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="1"
+					column=""
+					severity="warning"
+					message="Missing space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="2"
+					column=""
+					severity="warning"
+					message="Missing 'use strict' statement."
+					source="com.jslint.foo" />
+			
+				<error
+					line="3"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'function' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="7"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'function' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="7"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="7"
+					column=""
+					severity="warning"
+					message="Missing space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="9"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'function' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="9"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="9"
+					column=""
+					severity="warning"
+					message="Missing space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="12"
+					column=""
+					severity="warning"
+					message="Combine this with the previous 'var' statement."
+					source="com.jslint.foo" />
+			
+				<error
+					line="12"
+					column=""
+					severity="warning"
+					message="'weather_template' is already defined."
+					source="com.jslint.foo" />
+			
+				<error
+					line="18"
+					column=""
+					severity="warning"
+					message="Missing space between ',' and '1'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="23"
+					column=""
+					severity="warning"
+					message="Missing space between ',' and '1'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="28"
+					column=""
+					severity="warning"
+					message="Missing space between ',' and '1'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="33"
+					column=""
+					severity="warning"
+					message="Missing space between ',' and '1'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="38"
+					column=""
+					severity="warning"
+					message="Missing space between ',' and '1'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="47"
+					column=""
+					severity="warning"
+					message="Combine this with the previous 'var' statement."
+					source="com.jslint.foo" />
+			
+				<error
+					line="48"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'function' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="48"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="48"
+					column=""
+					severity="warning"
+					message="Missing space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="54"
+					column=""
+					severity="warning"
+					message="Expected an assignment or function call and instead saw an expression."
+					source="com.jslint.foo" />
+			
+				<error
+					line="58"
+					column=""
+					severity="warning"
+					message="Combine this with the previous 'var' statement."
+					source="com.jslint.foo" />
+			
+				<error
+					line="60"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'function' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="60"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="60"
+					column=""
+					severity="warning"
+					message="Missing space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="61"
+					column=""
+					severity="warning"
+					message="Missing space between 'index' and '*'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="61"
+					column=""
+					severity="warning"
+					message="Missing space between '*' and '2'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="61"
+					column=""
+					severity="warning"
+					message="Missing space between 'index' and '*'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="61"
+					column=""
+					severity="warning"
+					message="Missing space between '*' and '2'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="62"
+					column=""
+					severity="warning"
+					message="Missing space between 'url' and '+'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="62"
+					column=""
+					severity="warning"
+					message="Missing space between '+' and '?1'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="62"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'function' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="62"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="62"
+					column=""
+					severity="warning"
+					message="Missing space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="66"
+					column=""
+					severity="warning"
+					message="Unexpected '(space)'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="68"
+					column=""
+					severity="warning"
+					message="Missing space between 'visibility' and '='."
+					source="com.jslint.foo" />
+			
+				<error
+					line="68"
+					column=""
+					severity="warning"
+					message="Missing space between '=' and 'visible'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="70"
+					column=""
+					severity="warning"
+					message="Combine this with the previous 'var' statement."
+					source="com.jslint.foo" />
+			
+				<error
+					line="71"
+					column=""
+					severity="warning"
+					message="Combine this with the previous 'var' statement."
+					source="com.jslint.foo" />
+			
+				<error
+					line="73"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'if' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="73"
+					column=""
+					severity="warning"
+					message="Missing space between ',' and '10'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="76"
+					column=""
+					severity="warning"
+					message="Missing space between ',' and '10'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="76"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'function' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="76"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="76"
+					column=""
+					severity="warning"
+					message="Missing space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="81"
+					column=""
+					severity="warning"
+					message="Combine this with the previous 'var' statement."
+					source="com.jslint.foo" />
+			
+				<error
+					line="82"
+					column=""
+					severity="warning"
+					message="Combine this with the previous 'var' statement."
+					source="com.jslint.foo" />
+			
+				<error
+					line="82"
+					column=""
+					severity="warning"
+					message="Missing radix parameter."
+					source="com.jslint.foo" />
+			
+				<error
+					line="82"
+					column=""
+					severity="warning"
+					message="Too many errors. (25% scanned)."
+					source="com.jslint.foo" />
+			
+		</file>
+	
+		<file name="js/nouns.js">
+			
+				<error
+					line="10"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="10"
+					column=""
+					severity="warning"
+					message="Missing space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="12"
+					column=""
+					severity="warning"
+					message="Missing 'use strict' statement."
+					source="com.jslint.foo" />
+			
+		</file>
+	
+		<file name="js/numfader.js">
+			
+				<error
+					line="14"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'function' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="14"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="14"
+					column=""
+					severity="warning"
+					message="Missing space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="17"
+					column=""
+					severity="warning"
+					message="Missing 'use strict' statement."
+					source="com.jslint.foo" />
+			
+				<error
+					line="18"
+					column=""
+					severity="warning"
+					message="Unexpected '(space)'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="19"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'function' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="19"
+					column=""
+					severity="warning"
+					message="Missing space between ',' and 'to'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="19"
+					column=""
+					severity="warning"
+					message="Missing space between ',' and 'interval'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="19"
+					column=""
+					severity="warning"
+					message="Missing space between ',' and 'callback'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="20"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'if' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="24"
+					column=""
+					severity="warning"
+					message="Combine this with the previous 'var' statement."
+					source="com.jslint.foo" />
+			
+				<error
+					line="24"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'function' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="24"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="24"
+					column=""
+					severity="warning"
+					message="Missing space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="25"
+					column=""
+					severity="warning"
+					message="Unexpected dangling '_' in '_incrementNum'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="25"
+					column=""
+					severity="warning"
+					message="Missing space between ',' and 'to'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="27"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'if' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="29"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'if' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="29"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="29"
+					column=""
+					severity="warning"
+					message="Missing space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="36"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'function' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="36"
+					column=""
+					severity="warning"
+					message="Missing space between ',' and 'toRGB'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="36"
+					column=""
+					severity="warning"
+					message="Missing space between ',' and 'interval'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="36"
+					column=""
+					severity="warning"
+					message="Missing space between ',' and 'callback'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="36"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="36"
+					column=""
+					severity="warning"
+					message="Missing space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="37"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'if' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="41"
+					column=""
+					severity="warning"
+					message="Combine this with the previous 'var' statement."
+					source="com.jslint.foo" />
+			
+				<error
+					line="42"
+					column=""
+					severity="warning"
+					message="Combine this with the previous 'var' statement."
+					source="com.jslint.foo" />
+			
+				<error
+					line="43"
+					column=""
+					severity="warning"
+					message="Combine this with the previous 'var' statement."
+					source="com.jslint.foo" />
+			
+				<error
+					line="43"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'function' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="43"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="43"
+					column=""
+					severity="warning"
+					message="Missing space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="44"
+					column=""
+					severity="warning"
+					message="Unexpected dangling '_' in '_incrementNum'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="44"
+					column=""
+					severity="warning"
+					message="Missing space between ',' and 'toRGB'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="45"
+					column=""
+					severity="warning"
+					message="Unexpected dangling '_' in '_incrementNum'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="45"
+					column=""
+					severity="warning"
+					message="Missing space between ',' and 'toRGB'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="46"
+					column=""
+					severity="warning"
+					message="Unexpected dangling '_' in '_incrementNum'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="46"
+					column=""
+					severity="warning"
+					message="Missing space between ',' and 'toRGB'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="47"
+					column=""
+					severity="warning"
+					message="Missing space between 'rgb(' and '+'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="47"
+					column=""
+					severity="warning"
+					message="Missing space between '+' and 'r'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="47"
+					column=""
+					severity="warning"
+					message="Missing space between 'r' and '+'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="47"
+					column=""
+					severity="warning"
+					message="Missing space between '+' and ','."
+					source="com.jslint.foo" />
+			
+				<error
+					line="47"
+					column=""
+					severity="warning"
+					message="Missing space between ',' and '+'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="47"
+					column=""
+					severity="warning"
+					message="Missing space between '+' and 'g'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="47"
+					column=""
+					severity="warning"
+					message="Missing space between 'g' and '+'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="47"
+					column=""
+					severity="warning"
+					message="Missing space between '+' and ','."
+					source="com.jslint.foo" />
+			
+				<error
+					line="47"
+					column=""
+					severity="warning"
+					message="Missing space between ',' and '+'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="47"
+					column=""
+					severity="warning"
+					message="Missing space between '+' and 'b'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="47"
+					column=""
+					severity="warning"
+					message="Missing space between 'b' and '+'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="47"
+					column=""
+					severity="warning"
+					message="Too many errors. (70% scanned)."
+					source="com.jslint.foo" />
+			
+		</file>
+	
+		<file name="js/tests.js">
+			
+				<error
+					line="2"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'function' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="3"
+					column=""
+					severity="warning"
+					message="Missing 'use strict' statement."
+					source="com.jslint.foo" />
+			
+				<error
+					line="3"
+					column=""
+					severity="warning"
+					message="Expected 'var' at column 3, not column 5."
+					source="com.jslint.foo" />
+			
+		</file>
+	
+		<file name="js/weather.js">
+			
+				<error
+					line="1"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'function' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="3"
+					column=""
+					severity="warning"
+					message="Missing 'use strict' statement."
+					source="com.jslint.foo" />
+			
+				<error
+					line="7"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'if' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="15"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'function' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="17"
+					column=""
+					severity="warning"
+					message="Missing space between 'http://api.wunderground.com/api/' and '+'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="17"
+					column=""
+					severity="warning"
+					message="Missing space between '+' and 'apiKey'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="17"
+					column=""
+					severity="warning"
+					message="Missing space between 'apiKey' and '+'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="17"
+					column=""
+					severity="warning"
+					message="Missing space between '+' and '/geolookup/conditions/q/zmw:00000.1.71623.json'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="20"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'function' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="22"
+					column=""
+					severity="warning"
+					message="Missing space between 'feelslike_' and '+'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="22"
+					column=""
+					severity="warning"
+					message="Missing space between '+' and 'wunderground'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="23"
+					column=""
+					severity="warning"
+					message="Missing space between 'temp_' and '+'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="23"
+					column=""
+					severity="warning"
+					message="Missing space between '+' and 'wunderground'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="29"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'if' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="29"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="29"
+					column=""
+					severity="warning"
+					message="Missing space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="36"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'function' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="36"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="36"
+					column=""
+					severity="warning"
+					message="Missing space between ')' and '{'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="38"
+					column=""
+					severity="warning"
+					message="Missing space between 'http://api.wunderground.com/api/' and '+'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="38"
+					column=""
+					severity="warning"
+					message="Missing space between '+' and 'apiKey'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="38"
+					column=""
+					severity="warning"
+					message="Missing space between 'apiKey' and '+'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="38"
+					column=""
+					severity="warning"
+					message="Missing space between '+' and '/forecast10day/q/zmw:00000.1.71623.json'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="40"
+					column=""
+					severity="warning"
+					message="Expected exactly one space between 'function' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="44"
+					column=""
+					severity="warning"
+					message="Unexpected '(space)'."
+					source="com.jslint.foo" />
+			
+				<error
+					line="45"
+					column=""
+					severity="warning"
+					message="Missing space between 'for' and '('."
+					source="com.jslint.foo" />
+			
+				<error
+					line="45"
+					column=""
+					severity="warning"
+					message="Move 'var' declarations to the top of the function."
+					source="com.jslint.foo" />
+			
+				<error
+					line="45"
+					column=""
+					severity="warning"
+					message="Stopping. (60% scanned)."
+					source="com.jslint.foo" />
+			
+		</file>
+	
+</checkstyle>

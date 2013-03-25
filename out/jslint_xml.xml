@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jslint>
+	
+		<file name="c:\wamp\www\wb\js\main.js">
+			
+				<issue
+					line="1"
+					char="28"
+					reason="Expected exactly one space between 'function' and '('."
+					evidence="var weatherbacon = function(){" />
+			
+				<issue
+					line="1"
+					char="30"
+					reason="Expected exactly one space between ')' and '{'."
+					evidence="var weatherbacon = function(){" />
+			
+				<issue
+					line="1"
+					char="30"
+					reason="Missing space between ')' and '{'."
+					evidence="var weatherbacon = function(){" />
+			
+				<issue
+					line="2"
+					char="3"
+					reason="Missing 'use strict' statement."
+					evidence="	var weather;" />
+			
+				<issue
+					line="3"
+					char="29"
+					reason="Expected exactly one space between 'function' and '('."
+					evidence="	$(document).ready(function($) {" />
+			
+				<issue
+					line="7"
+					char="35"
+					reason="Expected exactly one space between 'function' and '('."
+					evidence="		weather.updateCurrent(function(current){" />
+			
+				<issue
+					line="7"
+					char="44"
+					reason="Expected exactly one space between ')' and '{'."
+					evidence="		weather.updateCurrent(function(current){" />
+			
+				<issue
+					line="7"
+					char="44"
+					reason="Missing space between ')' and '{'."
+					evidence="		weather.updateCurrent(function(current){" />
+			
+				<issue
+					line="9"
+					char="38"
+					reason="Expected exactly one space between 'function' and '('."
+					evidence="			weather.updateForecast(function(forecast){" />
+			
+				<issue
+					line="9"
+					char="48"
+					reason="Expected exactly one space between ')' and '{'."
+					evidence="			weather.updateForecast(function(forecast){" />
+			
+				<issue
+					line="9"
+					char="48"
+					reason="Missing space between ')' and '{'."
+					evidence="			weather.updateForecast(function(forecast){" />
+			
+				<issue
+					line="12"
+					char="13"
+					reason="Combine this with the previous 'var' statement."
+					evidence="				var weather_template = ich.weather({" />
+			
+				<issue
+					line="12"
+					char="13"
+					reason="'weather_template' is already defined."
+					evidence="				var weather_template = ich.weather({" />
+			
+				<issue
+					line="18"
+					char="53"
+					reason="Missing space between ',' and '1'."
+					evidence="							letter: forecast[1].title.substring(0,1)," />
+			
+				<issue
+					line="23"
+					char="53"
+					reason="Missing space between ',' and '1'."
+					evidence="							letter: forecast[3].title.substring(0,1)," />
+			
+				<issue
+					line="28"
+					char="53"
+					reason="Missing space between ',' and '1'."
+					evidence="							letter: forecast[5].title.substring(0,1)," />
+			
+				<issue
+					line="33"
+					char="53"
+					reason="Missing space between ',' and '1'."
+					evidence="							letter: forecast[7].title.substring(0,1)," />
+			
+				<issue
+					line="38"
+					char="53"
+					reason="Missing space between ',' and '1'."
+					evidence="							letter: forecast[9].title.substring(0,1)," />
+			
+				<issue
+					line="47"
+					char="13"
+					reason="Combine this with the previous 'var' statement."
+					evidence="				var icon = getIcon();" />
+			
+				<issue
+					line="48"
+					char="46"
+					reason="Expected exactly one space between 'function' and '('."
+					evidence="				$('#bigIcon').load(icon.url, function(){" />
+			
+				<issue
+					line="48"
+					char="48"
+					reason="Expected exactly one space between ')' and '{'."
+					evidence="				$('#bigIcon').load(icon.url, function(){" />
+			
+				<issue
+					line="48"
+					char="48"
+					reason="Missing space between ')' and '{'."
+					evidence="				$('#bigIcon').load(icon.url, function(){" />
+			
+				<issue
+					line="54"
+					char="24"
+					reason="Expected an assignment or function call and instead saw an expression."
+					evidence="				weather.current.feelslike;" />
+			
+				<issue
+					line="58"
+					char="13"
+					reason="Combine this with the previous 'var' statement."
+					evidence="				var tomorrow = 0;" />
+			
+				<issue
+					line="60"
+					char="39"
+					reason="Expected exactly one space between 'function' and '('."
+					evidence="				$('strong.icon').each(function(index, value){" />
+			
+				<issue
+					line="60"
+					char="53"
+					reason="Expected exactly one space between ')' and '{'."
+					evidence="				$('strong.icon').each(function(index, value){" />
+			
+				<issue
+					line="60"
+					char="53"
+					reason="Missing space between ')' and '{'."
+					evidence="				$('strong.icon').each(function(index, value){" />
+			
+				<issue
+					line="61"
+					char="52"
+					reason="Missing space between 'index' and '*'."
+					evidence="					var icon = getIcon(weather.forecast[index*2].high, weather.forecast[index*2].english);" />
+			
+				<issue
+					line="61"
+					char="53"
+					reason="Missing space between '*' and '2'."
+					evidence="					var icon = getIcon(weather.forecast[index*2].high, weather.forecast[index*2].english);" />
+			
+				<issue
+					line="61"
+					char="84"
+					reason="Missing space between 'index' and '*'."
+					evidence="					var icon = getIcon(weather.forecast[index*2].high, weather.forecast[index*2].english);" />
+			
+				<issue
+					line="61"
+					char="85"
+					reason="Missing space between '*' and '2'."
+					evidence="					var icon = getIcon(weather.forecast[index*2].high, weather.forecast[index*2].english);" />
+			
+				<issue
+					line="62"
+					char="32"
+					reason="Missing space between 'url' and '+'."
+					evidence="					$(this).load(icon.url+'?1', function(){" />
+			
+				<issue
+					line="62"
+					char="33"
+					reason="Missing space between '+' and '?1'."
+					evidence="					$(this).load(icon.url+'?1', function(){" />
+			
+				<issue
+					line="62"
+					char="47"
+					reason="Expected exactly one space between 'function' and '('."
+					evidence="					$(this).load(icon.url+'?1', function(){" />
+			
+				<issue
+					line="62"
+					char="49"
+					reason="Expected exactly one space between ')' and '{'."
+					evidence="					$(this).load(icon.url+'?1', function(){" />
+			
+				<issue
+					line="62"
+					char="49"
+					reason="Missing space between ')' and '{'."
+					evidence="					$(this).load(icon.url+'?1', function(){" />
+			
+				<issue
+					line="66"
+					char="1"
+					reason="Unexpected '(space)'."
+					evidence="					" />
+			
+				<issue
+					line="68"
+					char="57"
+					reason="Missing space between 'visibility' and '='."
+					evidence="				document.getElementById(&quot;temp&quot;).style.visibility='visible';" />
+			
+				<issue
+					line="68"
+					char="58"
+					reason="Missing space between '=' and 'visible'."
+					evidence="				document.getElementById(&quot;temp&quot;).style.visibility='visible';" />
+			
+				<issue
+					line="70"
+					char="13"
+					reason="Combine this with the previous 'var' statement."
+					evidence="				var tempEffect = new numfader(document.getElementById(&quot;temp&quot;));" />
+			
+				<issue
+					line="71"
+					char="13"
+					reason="Combine this with the previous 'var' statement."
+					evidence="				var interval = 10;" />
+			
+				<issue
+					line="73"
+					char="11"
+					reason="Expected exactly one space between 'if' and '('."
+					evidence="				if(Math.abs(parseInt(current.feelslike,10)) &lt; 10) {" />
+			
+				<issue
+					line="73"
+					char="48"
+					reason="Missing space between ',' and '10'."
+					evidence="				if(Math.abs(parseInt(current.feelslike,10)) &lt; 10) {" />
+			
+				<issue
+					line="76"
+					char="62"
+					reason="Missing space between ',' and '10'."
+					evidence="				tempEffect.animateText(0, parseInt(current.feelslike,10), interval, function(el){" />
+			
+				<issue
+					line="76"
+					char="85"
+					reason="Expected exactly one space between 'function' and '('."
+					evidence="				tempEffect.animateText(0, parseInt(current.feelslike,10), interval, function(el){" />
+			
+				<issue
+					line="76"
+					char="89"
+					reason="Expected exactly one space between ')' and '{'."
+					evidence="				tempEffect.animateText(0, parseInt(current.feelslike,10), interval, function(el){" />
+			
+				<issue
+					line="76"
+					char="89"
+					reason="Missing space between ')' and '{'."
+					evidence="				tempEffect.animateText(0, parseInt(current.feelslike,10), interval, function(el){" />
+			
+				<issue
+					line="81"
+					char="13"
+					reason="Combine this with the previous 'var' statement."
+					evidence="				var bgEffect = new numfader($('body')[0]);" />
+			
+				<issue
+					line="82"
+					char="13"
+					reason="Combine this with the previous 'var' statement."
+					evidence="				var to = temp2RGB(parseInt(current.feelslike));" />
+			
+				<issue
+					line="82"
+					char="27"
+					reason="Missing radix parameter."
+					evidence="				var to = temp2RGB(parseInt(current.feelslike));" />
+			
+				<issue
+					line="82"
+					char="27"
+					reason="Too many errors. (25% scanned)."
+					evidence="" />
+			
+		</file>
+	
+		<file name="c:\wamp\www\wb\js\nouns.js">
+			
+				<issue
+					line="10"
+					char="17"
+					reason="Expected exactly one space between ')' and '{'."
+					evidence="function nouns(){" />
+			
+				<issue
+					line="10"
+					char="17"
+					reason="Missing space between ')' and '{'."
+					evidence="function nouns(){" />
+			
+				<issue
+					line="12"
+					char="1"
+					reason="Missing 'use strict' statement."
+					evidence="}" />
+			
+		</file>
+	
+		<file name="c:\wamp\www\wb\js\numfader.js">
+			
+				<issue
+					line="14"
+					char="24"
+					reason="Expected exactly one space between 'function' and '('."
+					evidence="var numfader = function(el){" />
+			
+				<issue
+					line="14"
+					char="28"
+					reason="Expected exactly one space between ')' and '{'."
+					evidence="var numfader = function(el){" />
+			
+				<issue
+					line="14"
+					char="28"
+					reason="Missing space between ')' and '{'."
+					evidence="var numfader = function(el){" />
+			
+				<issue
+					line="17"
+					char="3"
+					reason="Missing 'use strict' statement."
+					evidence="	numfader.prototype.el = el;" />
+			
+				<issue
+					line="18"
+					char="1"
+					reason="Unexpected '(space)'."
+					evidence="	" />
+			
+				<issue
+					line="19"
+					char="44"
+					reason="Expected exactly one space between 'function' and '('."
+					evidence="	numfader.prototype.animateText = function(from,to,interval,callback) {" />
+			
+				<issue
+					line="19"
+					char="50"
+					reason="Missing space between ',' and 'to'."
+					evidence="	numfader.prototype.animateText = function(from,to,interval,callback) {" />
+			
+				<issue
+					line="19"
+					char="53"
+					reason="Missing space between ',' and 'interval'."
+					evidence="	numfader.prototype.animateText = function(from,to,interval,callback) {" />
+			
+				<issue
+					line="19"
+					char="62"
+					reason="Missing space between ',' and 'callback'."
+					evidence="	numfader.prototype.animateText = function(from,to,interval,callback) {" />
+			
+				<issue
+					line="20"
+					char="7"
+					reason="Expected exactly one space between 'if' and '('."
+					evidence="		if(interval === undefined) {" />
+			
+				<issue
+					line="24"
+					char="9"
+					reason="Combine this with the previous 'var' statement."
+					evidence="		var timer = setInterval(function(){" />
+			
+				<issue
+					line="24"
+					char="37"
+					reason="Expected exactly one space between 'function' and '('."
+					evidence="		var timer = setInterval(function(){" />
+			
+				<issue
+					line="24"
+					char="39"
+					reason="Expected exactly one space between ')' and '{'."
+					evidence="		var timer = setInterval(function(){" />
+			
+				<issue
+					line="24"
+					char="39"
+					reason="Missing space between ')' and '{'."
+					evidence="		var timer = setInterval(function(){" />
+			
+				<issue
+					line="25"
+					char="11"
+					reason="Unexpected dangling '_' in '_incrementNum'."
+					evidence="			i = _incrementNum(i,to);" />
+			
+				<issue
+					line="25"
+					char="27"
+					reason="Missing space between ',' and 'to'."
+					evidence="			i = _incrementNum(i,to);" />
+			
+				<issue
+					line="27"
+					char="9"
+					reason="Expected exactly one space between 'if' and '('."
+					evidence="			if(i === to) {" />
+			
+				<issue
+					line="29"
+					char="11"
+					reason="Expected exactly one space between 'if' and '('."
+					evidence="				if(callback){" />
+			
+				<issue
+					line="29"
+					char="21"
+					reason="Expected exactly one space between ')' and '{'."
+					evidence="				if(callback){" />
+			
+				<issue
+					line="29"
+					char="21"
+					reason="Missing space between ')' and '{'."
+					evidence="				if(callback){" />
+			
+				<issue
+					line="36"
+					char="56"
+					reason="Expected exactly one space between 'function' and '('."
+					evidence="	numfader.prototype.animateBackgroundColour = function(fromRGB,toRGB,interval,callback){" />
+			
+				<issue
+					line="36"
+					char="65"
+					reason="Missing space between ',' and 'toRGB'."
+					evidence="	numfader.prototype.animateBackgroundColour = function(fromRGB,toRGB,interval,callback){" />
+			
+				<issue
+					line="36"
+					char="71"
+					reason="Missing space between ',' and 'interval'."
+					evidence="	numfader.prototype.animateBackgroundColour = function(fromRGB,toRGB,interval,callback){" />
+			
+				<issue
+					line="36"
+					char="80"
+					reason="Missing space between ',' and 'callback'."
+					evidence="	numfader.prototype.animateBackgroundColour = function(fromRGB,toRGB,interval,callback){" />
+			
+				<issue
+					line="36"
+					char="89"
+					reason="Expected exactly one space between ')' and '{'."
+					evidence="	numfader.prototype.animateBackgroundColour = function(fromRGB,toRGB,interval,callback){" />
+			
+				<issue
+					line="36"
+					char="89"
+					reason="Missing space between ')' and '{'."
+					evidence="	numfader.prototype.animateBackgroundColour = function(fromRGB,toRGB,interval,callback){" />
+			
+				<issue
+					line="37"
+					char="7"
+					reason="Expected exactly one space between 'if' and '('."
+					evidence="		if(interval === undefined) {" />
+			
+				<issue
+					line="41"
+					char="9"
+					reason="Combine this with the previous 'var' statement."
+					evidence="		var g = fromRGB.g;" />
+			
+				<issue
+					line="42"
+					char="9"
+					reason="Combine this with the previous 'var' statement."
+					evidence="		var b = fromRGB.b;" />
+			
+				<issue
+					line="43"
+					char="9"
+					reason="Combine this with the previous 'var' statement."
+					evidence="		var timer = setInterval(function(){" />
+			
+				<issue
+					line="43"
+					char="37"
+					reason="Expected exactly one space between 'function' and '('."
+					evidence="		var timer = setInterval(function(){" />
+			
+				<issue
+					line="43"
+					char="39"
+					reason="Expected exactly one space between ')' and '{'."
+					evidence="		var timer = setInterval(function(){" />
+			
+				<issue
+					line="43"
+					char="39"
+					reason="Missing space between ')' and '{'."
+					evidence="		var timer = setInterval(function(){" />
+			
+				<issue
+					line="44"
+					char="11"
+					reason="Unexpected dangling '_' in '_incrementNum'."
+					evidence="			r = _incrementNum(r,toRGB.r);" />
+			
+				<issue
+					line="44"
+					char="27"
+					reason="Missing space between ',' and 'toRGB'."
+					evidence="			r = _incrementNum(r,toRGB.r);" />
+			
+				<issue
+					line="45"
+					char="11"
+					reason="Unexpected dangling '_' in '_incrementNum'."
+					evidence="			g = _incrementNum(g,toRGB.g);" />
+			
+				<issue
+					line="45"
+					char="27"
+					reason="Missing space between ',' and 'toRGB'."
+					evidence="			g = _incrementNum(g,toRGB.g);" />
+			
+				<issue
+					line="46"
+					char="11"
+					reason="Unexpected dangling '_' in '_incrementNum'."
+					evidence="			b = _incrementNum(b,toRGB.b);" />
+			
+				<issue
+					line="46"
+					char="27"
+					reason="Missing space between ',' and 'toRGB'."
+					evidence="			b = _incrementNum(b,toRGB.b);" />
+			
+				<issue
+					line="47"
+					char="40"
+					reason="Missing space between 'rgb(' and '+'."
+					evidence="			el.style.backgroundColor = 'rgb('+r+','+g+','+b+')';" />
+			
+				<issue
+					line="47"
+					char="41"
+					reason="Missing space between '+' and 'r'."
+					evidence="			el.style.backgroundColor = 'rgb('+r+','+g+','+b+')';" />
+			
+				<issue
+					line="47"
+					char="42"
+					reason="Missing space between 'r' and '+'."
+					evidence="			el.style.backgroundColor = 'rgb('+r+','+g+','+b+')';" />
+			
+				<issue
+					line="47"
+					char="43"
+					reason="Missing space between '+' and ','."
+					evidence="			el.style.backgroundColor = 'rgb('+r+','+g+','+b+')';" />
+			
+				<issue
+					line="47"
+					char="46"
+					reason="Missing space between ',' and '+'."
+					evidence="			el.style.backgroundColor = 'rgb('+r+','+g+','+b+')';" />
+			
+				<issue
+					line="47"
+					char="47"
+					reason="Missing space between '+' and 'g'."
+					evidence="			el.style.backgroundColor = 'rgb('+r+','+g+','+b+')';" />
+			
+				<issue
+					line="47"
+					char="48"
+					reason="Missing space between 'g' and '+'."
+					evidence="			el.style.backgroundColor = 'rgb('+r+','+g+','+b+')';" />
+			
+				<issue
+					line="47"
+					char="49"
+					reason="Missing space between '+' and ','."
+					evidence="			el.style.backgroundColor = 'rgb('+r+','+g+','+b+')';" />
+			
+				<issue
+					line="47"
+					char="52"
+					reason="Missing space between ',' and '+'."
+					evidence="			el.style.backgroundColor = 'rgb('+r+','+g+','+b+')';" />
+			
+				<issue
+					line="47"
+					char="53"
+					reason="Missing space between '+' and 'b'."
+					evidence="			el.style.backgroundColor = 'rgb('+r+','+g+','+b+')';" />
+			
+				<issue
+					line="47"
+					char="54"
+					reason="Missing space between 'b' and '+'."
+					evidence="			el.style.backgroundColor = 'rgb('+r+','+g+','+b+')';" />
+			
+				<issue
+					line="47"
+					char="54"
+					reason="Too many errors. (70% scanned)."
+					evidence="" />
+			
+		</file>
+	
+		<file name="c:\wamp\www\wb\js\tests.js">
+			
+				<issue
+					line="2"
+					char="27"
+					reason="Expected exactly one space between 'function' and '('."
+					evidence="$(document).ready(function($) {" />
+			
+				<issue
+					line="3"
+					char="5"
+					reason="Missing 'use strict' statement."
+					evidence="    var apikey = '160caaa27c885952';" />
+			
+				<issue
+					line="3"
+					char="5"
+					reason="Expected 'var' at column 3, not column 5."
+					evidence="    var apikey = '160caaa27c885952';" />
+			
+		</file>
+	
+		<file name="c:\wamp\www\wb\js\weather.js">
+			
+				<issue
+					line="1"
+					char="28"
+					reason="Expected exactly one space between 'function' and '('."
+					evidence="var wunderground = function(apiKey, system) {" />
+			
+				<issue
+					line="3"
+					char="3"
+					reason="Missing 'use strict' statement."
+					evidence="	wunderground.prototype.unit = {" />
+			
+				<issue
+					line="7"
+					char="5"
+					reason="Expected exactly one space between 'if' and '('."
+					evidence="	if(system === 'imperial') {" />
+			
+				<issue
+					line="15"
+					char="50"
+					reason="Expected exactly one space between 'function' and '('."
+					evidence="	wunderground.prototype.updateCurrent = function(callback) {" />
+			
+				<issue
+					line="17"
+					char="47"
+					reason="Missing space between 'http://api.wunderground.com/api/' and '+'."
+					evidence="			url : 'http://api.wunderground.com/api/'+apiKey+'/geolookup/conditions/q/zmw:00000.1.71623.json'," />
+			
+				<issue
+					line="17"
+					char="48"
+					reason="Missing space between '+' and 'apiKey'."
+					evidence="			url : 'http://api.wunderground.com/api/'+apiKey+'/geolookup/conditions/q/zmw:00000.1.71623.json'," />
+			
+				<issue
+					line="17"
+					char="54"
+					reason="Missing space between 'apiKey' and '+'."
+					evidence="			url : 'http://api.wunderground.com/api/'+apiKey+'/geolookup/conditions/q/zmw:00000.1.71623.json'," />
+			
+				<issue
+					line="17"
+					char="55"
+					reason="Missing space between '+' and '/geolookup/conditions/q/zmw:00000.1.71623.json'."
+					evidence="			url : 'http://api.wunderground.com/api/'+apiKey+'/geolookup/conditions/q/zmw:00000.1.71623.json'," />
+			
+				<issue
+					line="20"
+					char="25"
+					reason="Expected exactly one space between 'function' and '('."
+					evidence="			success : function(data) {" />
+			
+				<issue
+					line="22"
+					char="59"
+					reason="Missing space between 'feelslike_' and '+'."
+					evidence="					feelslike: data.current_observation['feelslike_'+wunderground.prototype.unit.code]," />
+			
+				<issue
+					line="22"
+					char="60"
+					reason="Missing space between '+' and 'wunderground'."
+					evidence="					feelslike: data.current_observation['feelslike_'+wunderground.prototype.unit.code]," />
+			
+				<issue
+					line="23"
+					char="49"
+					reason="Missing space between 'temp_' and '+'."
+					evidence="					temp: data.current_observation['temp_'+wunderground.prototype.unit.code]," />
+			
+				<issue
+					line="23"
+					char="50"
+					reason="Missing space between '+' and 'wunderground'."
+					evidence="					temp: data.current_observation['temp_'+wunderground.prototype.unit.code]," />
+			
+				<issue
+					line="29"
+					char="11"
+					reason="Expected exactly one space between 'if' and '('."
+					evidence="				if(callback){" />
+			
+				<issue
+					line="29"
+					char="21"
+					reason="Expected exactly one space between ')' and '{'."
+					evidence="				if(callback){" />
+			
+				<issue
+					line="29"
+					char="21"
+					reason="Missing space between ')' and '{'."
+					evidence="				if(callback){" />
+			
+				<issue
+					line="36"
+					char="51"
+					reason="Expected exactly one space between 'function' and '('."
+					evidence="	wunderground.prototype.updateForecast = function(callback){" />
+			
+				<issue
+					line="36"
+					char="61"
+					reason="Expected exactly one space between ')' and '{'."
+					evidence="	wunderground.prototype.updateForecast = function(callback){" />
+			
+				<issue
+					line="36"
+					char="61"
+					reason="Missing space between ')' and '{'."
+					evidence="	wunderground.prototype.updateForecast = function(callback){" />
+			
+				<issue
+					line="38"
+					char="47"
+					reason="Missing space between 'http://api.wunderground.com/api/' and '+'."
+					evidence="			url : 'http://api.wunderground.com/api/'+apiKey+'/forecast10day/q/zmw:00000.1.71623.json'," />
+			
+				<issue
+					line="38"
+					char="48"
+					reason="Missing space between '+' and 'apiKey'."
+					evidence="			url : 'http://api.wunderground.com/api/'+apiKey+'/forecast10day/q/zmw:00000.1.71623.json'," />
+			
+				<issue
+					line="38"
+					char="54"
+					reason="Missing space between 'apiKey' and '+'."
+					evidence="			url : 'http://api.wunderground.com/api/'+apiKey+'/forecast10day/q/zmw:00000.1.71623.json'," />
+			
+				<issue
+					line="38"
+					char="55"
+					reason="Missing space between '+' and '/forecast10day/q/zmw:00000.1.71623.json'."
+					evidence="			url : 'http://api.wunderground.com/api/'+apiKey+'/forecast10day/q/zmw:00000.1.71623.json'," />
+			
+				<issue
+					line="40"
+					char="25"
+					reason="Expected exactly one space between 'function' and '('."
+					evidence="			success : function(data) {" />
+			
+				<issue
+					line="44"
+					char="1"
+					reason="Unexpected '(space)'."
+					evidence="				 " />
+			
+				<issue
+					line="45"
+					char="12"
+					reason="Missing space between 'for' and '('."
+					evidence="				for(var i = 0; i&lt;num_days; i++){" />
+			
+				<issue
+					line="45"
+					char="13"
+					reason="Move 'var' declarations to the top of the function."
+					evidence="				for(var i = 0; i&lt;num_days; i++){" />
+			
+				<issue
+					line="45"
+					char="13"
+					reason="Stopping. (60% scanned)."
+					evidence="" />
+			
+		</file>
+	
+</jslint>
