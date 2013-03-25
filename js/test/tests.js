@@ -1,15 +1,19 @@
 //Testing
-asyncTest("Current Weather, imperial", 3, function(){
-    var weather = new Wunderground(apikey, 'imperial', true);
+
+test( "hello test", function() {
+  ok( 1 == "1", "Passed!" );
+});
+
+asyncTest("Current Weather", 2, function(){
+    var weather = new Wunderground('nothing', 'celcius', true);
 
     weather.updateCurrent().done(function(data){
         ok(weather.current.english, "English is set");
         ok(weather.current.feelslike, "Feelslike is set");
-        equal("f", weather.unit.code, "imperial means unit is F");
         start();
     });
-}); 
-
+});
+ 
     /*asyncTest("Current Weather, metric", 3, function(){
         var weather = new wunderground(apikey, 'metric');
 

@@ -14,7 +14,7 @@ var Wunderground = function(apiKey, system, testing) {
 	Wunderground.prototype.weather = '';
 	Wunderground.prototype.location = '';
 	Wunderground.prototype.updateCurrent = function(callback) {
-		var url = 'http://api.wunderground.com/api/'+apiKey+'/geolookup/conditions/q/',
+		var url = 'http://api.wunderground.com/api/'+apiKey+'/geolookup/conditions/q/';
 		if(Wunderground.prototype.testing) {
 			url = 'js/test/';
 		}
