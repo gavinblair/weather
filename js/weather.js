@@ -15,8 +15,8 @@ var Wunderground = function(apiKey, system) {
 	Wunderground.prototype.updateCurrent = function(callback) {
 		var url = 'http://api.wunderground.com/api/'+apiKey+'/geolookup/conditions/q/zmw:00000.1.71623.json';
 		var datatype = 'jsonp';
-		
-		if(apikey == 'test'){
+
+		if(apiKey == 'test'){
 			url = 'zmw-00000.1.71623.json';
 			datatype = 'json';
 		}
@@ -42,8 +42,8 @@ var Wunderground = function(apiKey, system) {
 	Wunderground.prototype.updateForecast = function(callback){
 		var url = 'http://api.wunderground.com/api/'+apiKey+'/forecast10day/q/zmw:00000.1.71623.json';
 		var datatype = 'jsonp';
-		
-		if(apikey == 'test'){
+
+		if(apiKey == 'test'){
 			url = 'zmw-00000.1.71623_forecast.json';
 			datatype = 'json';
 		}

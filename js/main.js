@@ -4,6 +4,36 @@
 /*global Numfader:false */
 var weatherbacon = function(){
 	var weather;
+
+	this.clickDay = function(el){
+
+		//Change the background colour of the current nav item
+		$('nav a').css('background-color', $('body').css('backgroundColor'));
+		$(el).css('background-color', function(){
+			var rgb = $('body').css('backgroundColor').match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+
+			for(var i = 1; i < rgb.length; i++){
+				rgb[i] = parseInt(rgb[i]*0.85,10);
+			}
+
+			var newColor = 'rgb(' + rgb[1] + ',' + rgb[2] + ',' + rgb[3] + ')';
+
+			return newColor;
+		});
+
+		//switch to that day
+		var active = $('h1:visible');
+		active.hide();
+
+		$('#temp').text($(el).children('strong:first-child').text());
+
+		$('#bigIcon').children('svg').remove();
+		$(el).children('strong').children('svg').clone().appendTo('#bigIcon');
+
+		active.hide(); //this one seems necessary to make the animation work
+		active.show();
+	};
+
 	$(document).ready(function($) {
 
 		weather = new Wunderground('160caaa27c885952', 'metric');
