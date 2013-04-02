@@ -19,7 +19,7 @@ var weatherbacon = function(){
 
 		//switch to that day
 		$('#bigIcon').hide().children('svg').remove();
-		$(el).children('strong').children('svg').clone().appendTo('#bigIcon');
+		$(el).children('strong').children('svg').clone().appendTo('#bigIcon'); //merge conflict
 		$('#bigIcon').show();
 	};
 
