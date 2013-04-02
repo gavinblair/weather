@@ -18,9 +18,16 @@ var weatherbacon = function(){
 		});
 
 		//switch to that day
-		$('#bigIcon').hide().children('svg').remove();
-		$(el).children('strong').children('svg').clone().appendTo('#bigIcon'); //merge conflict
-		$('#bigIcon').show();
+		var active = $('h1:visible');
+		active.hide();
+
+		$('#temp').text($(el).children('strong:first-child').text());
+
+		$('#bigIcon').children('svg').remove();
+		$(el).children('strong').children('svg').clone().appendTo('#bigIcon');
+
+		active.hide(); //this one seems necessary to make the animation work
+		active.show();
 	};
 
 	$(document).ready(function($) {
