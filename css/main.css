@@ -156,7 +156,7 @@ h1.icon svg{ width:225px; height:225px; }
 
 /** COLOUR YOUR WORLD **/
 body, nav a, nav a:visited, nav a:hover, nav a:focus, nav a:active{ color:#fff; }
-nav a:hover, nav a:focus, nav a:active{ background:#b00000; }
+/*nav a:hover, nav a:focus, nav a:active{ background:#b00000; }*/
 p, p a, p a:hover, p a:active, p a:focus, p a:visited{ color: #000; }
 svg{ fill:#fff;}
 

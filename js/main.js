@@ -1,6 +1,10 @@
 var weatherbacon = function(){
 	var weather;
-	$(document).ready(function($) { 
+	$(document).ready(function($) {
+
+		$('nav a').hover(function(){ alert('gav');
+			console.log($(this).css('backgroundColor'));
+		});
 
 		weather = new Wunderground('160caaa27c885952', 'metric');
 
