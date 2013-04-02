@@ -46,7 +46,7 @@ module.exports = function(grunt){
 	  },
 		watch: {
 			files: ['js/lib/*.js', 'js/*.js', 'js/test/tests.js'],
-			tasks: ['jshint','uglify:build', 'qunit']
+			tasks: ['uglify:build', 'jshint']
 		}
 	});
  

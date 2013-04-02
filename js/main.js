@@ -1,10 +1,29 @@
 var weatherbacon = function(){
 	var weather;
-	$(document).ready(function($) {
 
-		$('nav a').hover(function(){ alert('gav');
-			console.log($(this).css('backgroundColor'));
+	this.clickDay = function(el, index){
+
+		//Change the background colour of the current nav item
+		$('nav a').css('background-color', $('body').css('backgroundColor'));
+		$(el).css('background-color', function(){
+			var rgb = $('body').css('backgroundColor').match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+
+			for(var i = 1; i < rgb.length; i++){
+				rgb[i] = parseInt(rgb[i]*0.85);
+			}
+
+			var newColor = 'rgb(' + rgb[1] + ',' + rgb[2] + ',' + rgb[3] + ')';
+
+			return newColor; 
 		});
+
+		//switch to that day
+		$('#bigIcon').hide().children('svg').remove();
+		$(el).children('strong').children('svg').clone().appendTo('#bigIcon');
+		$('#bigIcon').show();
+	};
+
+	$(document).ready(function($) {
 
 		weather = new Wunderground('160caaa27c885952', 'metric');
 
