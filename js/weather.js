@@ -14,14 +14,15 @@ var Wunderground = function(apiKey, system, testing) {
 	Wunderground.prototype.weather = '';
 	Wunderground.prototype.location = '';
 	Wunderground.prototype.updateCurrent = function(callback) {
-		var url = 'http://api.wunderground.com/api/'+apiKey+'/geolookup/conditions/q/';
+		var url = 'http://api.wunderground.com/api/'+apiKey+'/geolookup/conditions/q/zmw:00000.1.71623.json';
+		var datatype = 'jsonp';
 		if(Wunderground.prototype.testing) {
-			url = 'js/test/';
+			url = 'zmw-00000.1.71623.json';
+			datatype = 'json';
 		}
 		return $.ajax({
-			url : url+'zmw:00000.1.71623.json',
-
-			dataType : 'jsonp',
+			url : url,
+			dataType : datatype,
 			success : function(data) {
 				Wunderground.prototype.current = {
 					feelslike: data.current_observation['feelslike_'+Wunderground.prototype.unit.code],

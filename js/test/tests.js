@@ -5,8 +5,8 @@ test( "hello test", function() {
 });
 
 asyncTest("Current Weather", 2, function(){
-    var weather = new Wunderground('nothing', 'celcius', true);
-
+    var weather = new Wunderground('160caaa27c885952', 'celcius', true);
+    
     weather.updateCurrent().done(function(data){
         ok(weather.current.english, "English is set");
         ok(weather.current.feelslike, "Feelslike is set");
@@ -66,3 +66,4 @@ asyncTest("Current Weather", 2, function(){
             start();
         });
     });*/
+

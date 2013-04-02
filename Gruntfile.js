@@ -42,7 +42,7 @@ module.exports = function(grunt){
 			}
 		},
 		qunit: {
-	    all: ['js/test/test.html']
+	    all: ['http://localhost/wb/js/test/test.html']
 	  },
 		watch: {
 			files: ['js/lib/*.js', 'js/*.js', 'js/test/tests.js'],
