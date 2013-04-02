@@ -1,6 +1,5 @@
-var Wunderground = function(apiKey, system, testing) {
+var Wunderground = function(apiKey, system) {
 	//initialize
-	Wunderground.prototype.testing = testing || false;
 	Wunderground.prototype.unit = {
 		code:	'c',
 		name: 'celsius'
@@ -16,7 +15,8 @@ var Wunderground = function(apiKey, system, testing) {
 	Wunderground.prototype.updateCurrent = function(callback) {
 		var url = 'http://api.wunderground.com/api/'+apiKey+'/geolookup/conditions/q/zmw:00000.1.71623.json';
 		var datatype = 'jsonp';
-		if(Wunderground.prototype.testing) {
+		
+		if(apikey == 'test'){
 			url = 'zmw-00000.1.71623.json';
 			datatype = 'json';
 		}
@@ -40,14 +40,21 @@ var Wunderground = function(apiKey, system, testing) {
 	};
 
 	Wunderground.prototype.updateForecast = function(callback){
+		var url = 'http://api.wunderground.com/api/'+apiKey+'/forecast10day/q/zmw:00000.1.71623.json';
+		var datatype = 'jsonp';
+		
+		if(apikey == 'test'){
+			url = 'zmw-00000.1.71623_forecast.json';
+			datatype = 'json';
+		}
 		return $.ajax({
-			url : 'http://api.wunderground.com/api/'+apiKey+'/forecast10day/q/zmw:00000.1.71623.json',
-			dataType : 'jsonp',
+			url : url,
+			dataType : datatype,
 			success : function(data) {
 
 				var num_days = data.forecast.simpleforecast.forecastday.length;
 				Wunderground.prototype.forecast = [];
-				 
+
 				for(var i = 0; i<num_days; i++){
 					Wunderground.prototype.forecast.push({
 						title: data.forecast.txt_forecast.forecastday[i].title,
@@ -56,7 +63,7 @@ var Wunderground = function(apiKey, system, testing) {
 						high: data.forecast.simpleforecast.forecastday[i].high[Wunderground.prototype.unit.name]
 					});
 				}
-				
+
 				if(callback){
 					callback(Wunderground.prototype.forecast);
 				}

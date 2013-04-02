@@ -7,6 +7,6 @@
 * 
  */
 
-function nouns(){
+/*function nouns(){
 
-}
+}*/

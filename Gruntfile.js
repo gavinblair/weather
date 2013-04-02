@@ -3,16 +3,16 @@ module.exports = function(grunt){
 		pkg: grunt.file.readJSON('package.json'),
 		uglify: {
 			options: {
-		        banner: '/*! <%= pkg.name %> <%= grunt.template.today() %> */\n'
-		    },
-      		build: {
-        		src: ['js/lib/*.js', 'js/weather.js', 'js/numfader.js', 'js/nouns.js', 'js/main.js', 'js/*.js'],
+				banner: '/*! <%= pkg.name %> <%= grunt.template.today() %> */\n'
+			},
+			build: {
+				src: ['js/lib/*.js', 'js/weather.js', 'js/numfader.js', 'js/nouns.js', 'js/main.js', 'js/*.js'],
 				dest: 'js/prod/script.min.js'
 			},
 		},
 		jshint: {
-      		files: 'js/*.js',
-      		options: {
+			files: 'js/*.js',
+			options: {
 				// Define globals exposed by modern browsers.
 				"browser": true,
 				// Define globals exposed by jQuery.
@@ -42,14 +42,13 @@ module.exports = function(grunt){
 			}
 		},
 		qunit: {
-	    all: ['http://localhost/wb/js/test/test.html']
-	  },
+			all: ['js/test/test.html']
+		},
 		watch: {
 			files: ['js/lib/*.js', 'js/*.js', 'js/test/tests.js'],
-			tasks: ['jshint','uglify:build', 'qunit']
+			tasks: ['jshint', 'uglify:build', 'qunit']
 		}
 	});
- 
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-jshint');

@@ -1,22 +1,22 @@
 /*
 *
-* numfader
+* Numfader
 * by Gavin Blair
 * http://github.com/gavinblair
 *
 * usage:
-* var myfader = new numfader(document.getElementById("mydiv"));
+* var myfader = new Numfader(document.getElementById("mydiv"));
 * myfader.animateText(0,10,1000); //count from 0 to 10, updating every second
 * myfader.animateBackgroundColour({r: 255, g: 0, b: 0}, {r: 0, g: 255, b: 0}, 100); //animate the background color, faster
 * 
  */
 
-var numfader = function(el){
+var Numfader = function(el){
 
 	//initialize
-	numfader.prototype.el = el;
-	
-	numfader.prototype.animateText = function(from,to,interval,callback) {
+	Numfader.prototype.el = el;
+
+	Numfader.prototype.animateText = function(from,to,interval,callback) {
 		if(interval === undefined) {
 			interval = 100;
 		}
@@ -33,7 +33,7 @@ var numfader = function(el){
 		}, interval);
 	};
 
-	numfader.prototype.animateBackgroundColour = function(fromRGB,toRGB,interval,callback){
+	Numfader.prototype.animateBackgroundColour = function(fromRGB,toRGB,interval,callback){
 		if(interval === undefined) {
 			interval = 10;
 		}

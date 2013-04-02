@@ -1,18 +1,20 @@
+/*global $:false */
+/*global Wunderground:false */
+/*global ich:false */
+/*global Numfader:false */
 var weatherbacon = function(){
 	var weather;
-	$(document).ready(function($) { 
+	$(document).ready(function($) {
 
 		weather = new Wunderground('160caaa27c885952', 'metric');
 
 		weather.updateCurrent(function(current){
 
 			weather.updateForecast(function(forecast){
-				var weather_template = ich.weather({ });
-				$("#forecast").html(weather_template);
 				var weather_template = ich.weather({
-					"feelslike": current.feelslike,
-					"english": current.english,
-					"forecast": [
+					'feelslike': current.feelslike,
+					'english': current.english,
+					'forecast': [
 						{
 							index: 1,
 							letter: forecast[1].title.substring(0,1),
@@ -39,10 +41,10 @@ var weatherbacon = function(){
 							high: forecast[9].high
 						}
 					],
-					"unit": weather.unit.code.toUpperCase()
+					'unit': weather.unit.code.toUpperCase()
 				});
 
-				$("#container").html(weather_template);
+				$('#container').html(weather_template);
 
 				var icon = getIcon();
 				$('#bigIcon').load(icon.url, function(){
@@ -51,23 +53,20 @@ var weatherbacon = function(){
 					$('p').toggle();
 				});
 
-				weather.current.feelslike;
-
 				//is tomorrow day 0 or 1?
 				//if(weather.forecast[index].english)
-				var tomorrow = 0;
 
-				$('strong.icon').each(function(index, value){
+				$('strong.icon').each(function(index){
 					var icon = getIcon(weather.forecast[index*2].high, weather.forecast[index*2].english);
 					$(this).load(icon.url+'?1', function(){
 						$(this).parent().children('strong').toggle();
 					});
 				});
-					
-				/* prevent "0" being on the screen while we wait for a new value */
-				document.getElementById("temp").style.visibility='visible';
 
-				var tempEffect = new numfader(document.getElementById("temp"));
+				/* prevent "0" being on the screen while we wait for a new value */
+				document.getElementById('temp').style.visibility='visible';
+
+				var tempEffect = new Numfader(document.getElementById('temp'));
 				var interval = 10;
 				/**///current.feelslike = 45;
 				if(Math.abs(parseInt(current.feelslike,10)) < 10) {
@@ -78,8 +77,8 @@ var weatherbacon = function(){
 					$(el).addClass('animated bounceIn');
 				});
 
-				var bgEffect = new numfader($('body')[0]);
-				var to = temp2RGB(parseInt(current.feelslike));
+				var bgEffect = new Numfader($('body')[0]);
+				var to = temp2RGB(parseInt(current.feelslike,10));
 				var from = temp2RGB(0);
 
 				bgEffect.animateBackgroundColour(from, to);
@@ -120,7 +119,6 @@ function getIcon(temperature, english) {
 		}else{
 			iconSet = iconSet+'dry';
 		}
-		console.log(temperature)
 		switch(iconSet){
 			case 'hotdry':
 				icon = [{
@@ -151,8 +149,8 @@ function getIcon(temperature, english) {
 		//todo: more than one icon, choose it at random.
 		//then, make sure you don't use the same one twice
 
- 		return icon[0];
- 	}
+		return icon[0];
+	}
 
 	function temp2RGB(temp){
 		var hex;
@@ -324,3 +322,4 @@ function getIcon(temperature, english) {
 	}
 };
 var app = new weatherbacon();
+window.app = app;

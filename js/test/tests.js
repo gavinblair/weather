@@ -1,51 +1,32 @@
-//Testing
 
+/*
 test( "hello test", function() {
-  ok( 1 == "1", "Passed!" );
+  ok( 0 == "1", "Passed!" );
 });
+*/
 
-asyncTest("Current Weather", 2, function(){
-    var weather = new Wunderground('160caaa27c885952', 'celcius', true);
-    
+var apikey = 'test';
+
+asyncTest("updatecurrent", 2, function(){
+    var weather = new Wunderground(apikey, 'metric');
+
     weather.updateCurrent().done(function(data){
         ok(weather.current.english, "English is set");
         ok(weather.current.feelslike, "Feelslike is set");
         start();
     });
 });
- 
-    /*asyncTest("Current Weather, metric", 3, function(){
-        var weather = new wunderground(apikey, 'metric');
 
-        weather.updateCurrent().done(function(data){
-            ok(weather.current.english, "English is set");
-            ok(weather.current.feelslike, "Feelslike is set");
-            equal("c", weather.unit.code, "metric means unit is C");
-            start();
-        });
-    });*/
-
-    /*asyncTest("Current Weather, default system", 3, function(){
-        var weather = new wunderground(apikey);
-
-        weather.updateCurrent().done(function(data){
-            ok(weather.current.english, "English is set");
-            ok(weather.current.feelslike, "Feelslike is set");
-            equal("c", weather.unit.code, "default unit is C");
-            start();
-        });
-    });*/
-
-    /*asyncTest("Forecast", 4, function(){
-
-        weather.updateForecast().done(function(data){
-            ok(weather.forecast[0].english, "English is set");
-            ok(weather.forecast[0].low, "Low is set");
-            ok(weather.forecast[0].high, "High is set");
-            ok(weather.forecast[weather.forecast.length-1].title, "Title is set");
-            start();
-        });
-    });*/
+asyncTest("Forecast", 4, function(){
+    var weather = new Wunderground(apikey, 'metric');
+    weather.updateForecast().done(function(data){
+        ok(weather.forecast[0].english, "English is set");
+        ok(weather.forecast[0].low, "Low is set");
+        ok(weather.forecast[0].high, "High is set");
+        ok(weather.forecast[weather.forecast.length-1].title, "Title is set");
+        start();
+    });
+});
 
     /*asyncTest("numfader animateText", 1, function(){
         var el = document.createElement("el");
@@ -66,4 +47,4 @@ asyncTest("Current Weather", 2, function(){
             start();
         });
     });*/
-
+//});

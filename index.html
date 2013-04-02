@@ -48,7 +48,7 @@
                 <ul>
                     {{#forecast}}
                         <li>
-                        	<a href="#day{{index}}">
+                        	<a ontouchstart='app.clickDay(this,{{index}})'>
                         		<strong class="animated bounceIn num">{{high}}</strong>
                         		<strong style="display:none" class="icon animated bounceIn">{{high}}</strong>
                         		<span>{{letter}}</span>
